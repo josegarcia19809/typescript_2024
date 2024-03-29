@@ -1,30 +1,18 @@
-import { generarId } from "./funciones"
-
-interface Cita {
-    [key: string]: string
-    id: string;
-    paciente: string;
-    propietario: string;
-    email: string;
-    fecha: string;
-    sintomas: string;
-}
+import { generarId } from "./funciones";
+import type { Cita } from "./types";
 
 let editando = {
-    value: false
-}
+    value: false,
+};
 
 // Objeto de Cita
 const citaObj: Cita = {
     id: generarId(),
-    paciente: '',
-    propietario: '',
-    email: '',
-    fecha: '',
-    sintomas: ''
-}
+    paciente: "",
+    propietario: "",
+    email: "",
+    fecha: "",
+    sintomas: "",
+};
 
-export {
-    editando,
-    citaObj
-}
+export { editando, citaObj };
