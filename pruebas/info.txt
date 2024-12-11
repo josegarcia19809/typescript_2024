@@ -6,9 +6,9 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Typescript basics: Adding Types to Functions - Parameter & Return Value Types
 
-Defining Function Types
+
+
 03:28
 Creating Custom Types / Type Aliases
 03:57
