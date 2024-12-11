@@ -1,0 +1,34 @@
+React & TypeScript - The Practical Guide
+Maximilian Schwarzmüller
+
+TypeScript: Tu completa guía y manual de mano.
+Fernando Herrera
+
+Ejecutar con ts-node objetoUser.ts
+
+Typescript basics: Working with Object Types
+
+
+05:39
+Working with Array Types
+03:59
+Adding Types to Functions - Parameter & Return Value Types
+05:04
+Defining Function Types
+03:28
+Creating Custom Types / Type Aliases
+03:57
+Defining Object Types with Interfaces
+03:06
+Interfaces vs Custom Types
+04:24
+Merging Types
+04:21
+Being Specific With Literal Types
+03:04
+Adding Type Guards
+03:42
+Type Guards & Type Narrowing - A Closer Look
+01:26
+Making Sense Of Generic Types
+12:20
