@@ -6,14 +6,8 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Typescript basics: Working with Array Types
+Typescript basics: Adding Types to Functions - Parameter & Return Value Types
 
-
-05:39
-
-03:59
-Adding Types to Functions - Parameter & Return Value Types
-05:04
 Defining Function Types
 03:28
 Creating Custom Types / Type Aliases
