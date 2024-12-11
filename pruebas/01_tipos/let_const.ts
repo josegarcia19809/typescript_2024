@@ -1,8 +1,8 @@
-let mensaje: string="hola";
+let mensaje: string = "hola";
 if (true) {
-    mensaje="adios";
+    mensaje = "adios";
 }
 console.log(mensaje);
 
-const NOMBRE: string="José L García M";
+const NOMBRE: string = "José L García M";
 console.log(NOMBRE);

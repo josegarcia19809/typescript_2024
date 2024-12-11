@@ -2,17 +2,19 @@ type Heroe = {
     name: string;
     age?: number;
     powers: string[];
-    getName?: (name:string) => string;
+    getName?: (name: string) => string;
 }
 
 let myCustomVariable: (string | number | Heroe) = "José";
 console.log(myCustomVariable);
 console.log(typeof myCustomVariable);
+// @ts-ignore
 console.log("-".repeat(100));
 
 myCustomVariable = 20
 console.log(myCustomVariable);
 console.log(typeof myCustomVariable);
+// @ts-ignore
 console.log("-".repeat(100));
 
 myCustomVariable = {
@@ -32,5 +34,6 @@ if (typeof myCustomVariable === "object" && myCustomVariable !== null) {
     }
 }
 console.log(typeof myCustomVariable);
+// @ts-ignore
 console.log("-".repeat(100));
 
