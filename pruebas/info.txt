@@ -6,11 +6,11 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Typescript basics: Defining Object Types with Interfaces
+Typescript basics: Implements Interfaces
 
 
 03:06
-Interfaces vs Custom Types
+
 04:24
 Merging Types
 04:21
