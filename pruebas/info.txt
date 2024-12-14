@@ -6,13 +6,8 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Typescript basics: Merging Interfaces
+Typescript basics: Being Specific With Literal Types
 
-
-
-04:21
-Being Specific With Literal Types
-03:04
 Adding Type Guards
 03:42
 Type Guards & Type Narrowing - A Closer Look
