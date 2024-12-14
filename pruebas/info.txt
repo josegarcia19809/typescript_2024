@@ -6,11 +6,7 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Typescript basics: Adding Type Guards
+Typescript basics: Type Guards & Type Narrowing - A Closer Look
 
-
-03:42
-Type Guards & Type Narrowing - A Closer Look
-01:26
 Making Sense Of Generic Types
 12:20

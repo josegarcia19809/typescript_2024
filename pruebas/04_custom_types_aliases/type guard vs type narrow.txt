@@ -1,0 +1,71 @@
+**Guardias de Tipos y Reducción de Tipos - Una Mirada Más Cercana**
+Al usar "Guardias de Tipos" (es decir, declaraciones `if` que verifican qué tipo concreto
+se está utilizando), TypeScript realiza una operación conocida como "Reducción de Tipos".
+
+Esto significa que TypeScript puede reducir un tipo más amplio a un tipo más específico.
+
+**Considera este ejemplo:**
+
+```typescript
+function combine(a: number | string, b: number | string) {
+  if (typeof a === 'number' && typeof b === 'number') {
+    return a + b;
+  }
+
+  return `${a} ${b}`;
+}
+En este ejemplo, dentro de la declaración if, TypeScript reduce los tipos de a y b de
+"número o cadena" a "definitivamente número", ya que eso es lo que la condición del if indica
+(y TypeScript "entiende" eso).
+
+Después de la declaración if, TypeScript comprende que a y b vuelven a ser "número o cadena"
+porque solo entramos en el bloque if si ambos son de tipo número. Por lo tanto,
+el tipo vuelve a ser más amplio.
+
+Puedes añadir todo tipo de "Guardias de Tipos" para ejecutar código condicionalmente y lograr
+que TypeScript reduzca un tipo:
+
+Usa el operador typeof de JavaScript como se mostró arriba para verificar si estás tratando
+con un tipo string, number, boolean, object, function, symbol o bigint.
+Usa el operador instanceof de JavaScript para verificar si un valor objeto está basado
+en una clase específica.
+Usa el operador in de JavaScript para verificar si un objeto contiene una propiedad específica.
+
+
+Importante:
+No puedes verificar si un valor cumple con la definición de un tipo personalizado
+(alias de tipo) o interfaz. Estas son características específicas de TypeScript para
+las cuales no existe un equivalente en JavaScript. Por lo tanto, dado que esas
+verificaciones if deben ejecutarse en tiempo de ejecución, no puedes escribir código
+que verifique estos tipos en tiempo de ejecución.
+
+Por ejemplo, el siguiente código no funcionará porque el tipo User no existe una vez que el
+código se compila a JavaScript:
+
+type User = {
+  name: string;
+  age: number;
+};
+
+type Admin = {
+  name: string;
+  age: number;
+  permissions: string[];
+};
+
+function login(u: User | Admin) {
+  if (typeof u === User) {
+    // hacer algo
+  }
+}
+
+
+Sin embargo, podrías verificar la existencia de la propiedad permissions, ya que solo el
+objeto Admin la tendrá:
+
+function login(u: User | Admin) {
+  if ('permissions' in u) {
+    // hacer algo
+  }
+}
+Ese código funcionaría en tiempo de ejecución.
