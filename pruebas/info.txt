@@ -6,12 +6,8 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
+Typescript basics: Creating Custom Types / Type Aliases
 
-
-
-03:28
-Creating Custom Types / Type Aliases
-03:57
 Defining Object Types with Interfaces
 03:06
 Interfaces vs Custom Types
