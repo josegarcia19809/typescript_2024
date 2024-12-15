@@ -6,7 +6,17 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Typescript basics: Generic Types - merge<T, U>
+Clases en Typescript: Definición de una clase básica en TypeScript
 
-Making Sense Of Generic Types
-12:20
+
+Forma corta de asignar propiedades
+06:27
+Métodos públicos y privados
+05:51
+Herencia, super y extends
+10:53
+Gets y Sets
+06:29
+Clases Abstractas
+07:49
+Constructores privados
