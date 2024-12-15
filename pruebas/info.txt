@@ -6,7 +6,7 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Typescript basics: Type Guards & Type Narrowing - A Closer Look
+Typescript basics: Generic Types on Arrays
 
 Making Sense Of Generic Types
 12:20
