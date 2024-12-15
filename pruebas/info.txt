@@ -6,7 +6,7 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Typescript basics: Generic Types - DataStorage<T>
+Typescript basics: Generic Types - merge<T, U>
 
 Making Sense Of Generic Types
 12:20
