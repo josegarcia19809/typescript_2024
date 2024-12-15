@@ -6,10 +6,10 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Clases en Typescript: Definición de una clase básica en TypeScript
+Clases en Typescript: Forma corta de asignar propiedades
 
 
-Forma corta de asignar propiedades
+
 06:27
 Métodos públicos y privados
 05:51
