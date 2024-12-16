@@ -6,17 +6,8 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Clases en Typescript: Gets y Sets
+Clases en Typescript: Clases Abstractas
 
 
-
-06:27
-
-05:51
-
-10:53
-
-06:29
-Clases Abstractas
 07:49
 Constructores privados
