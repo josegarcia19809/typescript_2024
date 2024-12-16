@@ -6,8 +6,4 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Clases en Typescript: Clases Abstractas
-
-
-07:49
-Constructores privados
+Clases en Typescript: Constructores privados - singleton
