@@ -6,16 +6,16 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Clases en Typescript: Forma corta de asignar propiedades
+Clases en Typescript: Gets y Sets
 
 
 
 06:27
-Métodos públicos y privados
+
 05:51
-Herencia, super y extends
+
 10:53
-Gets y Sets
+
 06:29
 Clases Abstractas
 07:49
