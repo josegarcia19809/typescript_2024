@@ -6,9 +6,9 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Interface en Typescript: Interfaz básica - Cliente
+Interface en Typescript: Estructuras complejas - Cliente
 
-Estructuras complejas
+
 07:55
 Métodos en la interfaz
 03:53
