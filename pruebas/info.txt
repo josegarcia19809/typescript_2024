@@ -6,13 +6,5 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Interface en Typescript: Interfaces para las funciones - Operación suma
+Interface en Typescript: Interface que Implementa de interface
 
-
-03:41
-Ejercicio práctico #5: Implementación de interfaces
-00:06
-Tarea y Resolución del ejercicio práctico #5
-06:15
-Examen teórico #5
-10 preguntas
