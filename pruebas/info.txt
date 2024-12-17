@@ -6,14 +6,8 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Interface en Typescript: Estructuras complejas - Cliente
+Interface en Typescript: Interfaces en las clases - Operaciones matemáticas
 
-
-07:55
-Métodos en la interfaz
-03:53
-Interfaces en las clases
-05:20
 Interfaces para las funciones
 03:41
 Ejercicio práctico #5: Implementación de interfaces
