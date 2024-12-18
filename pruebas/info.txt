@@ -6,5 +6,17 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Interface en Typescript: Interface que Implementa de interface
+Genéricos: Funciones Genéricas
 
+Funciones Genéricas
+06:27
+Ejemplo de función genérica en acción
+06:42
+Agrupar exportaciones
+03:59
+Ejemplo aplicado de genéricos
+09:07
+Mapear respuestas http
+13:35
+Quicktype.io extensión
+04:06
