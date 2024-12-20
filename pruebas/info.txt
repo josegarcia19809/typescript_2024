@@ -5,10 +5,8 @@ TypeScript: Tu completa guía y manual de mano.
 Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
+Quicktype.io extensión: Descargar extensión en VSCode - Paste JSON as Code
 
-Genéricos: Ejemplo aplicado de genéricos. Conectar a una API de Pokemon
 
-Mapear respuestas http
-13:35
-Quicktype.io extensión
-04:06
+
+Genéricos: Mapear respuestas http
