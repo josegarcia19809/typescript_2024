@@ -8,5 +8,3 @@ Ejecutar con ts-node objetoUser.ts
 Quicktype.io extensión: Descargar extensión en VSCode - Paste JSON as Code
 
 
-
-Genéricos: Mapear respuestas http
