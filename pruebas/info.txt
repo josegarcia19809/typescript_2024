@@ -6,11 +6,8 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Genéricos: Agrupar exportaciones
+Genéricos: Ejemplo aplicado de genéricos. Conectar a una API de Pokemon
 
-
-Ejemplo aplicado de genéricos
-09:07
 Mapear respuestas http
 13:35
 Quicktype.io extensión
