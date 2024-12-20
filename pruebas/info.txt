@@ -6,10 +6,9 @@ Fernando Herrera
 
 Ejecutar con ts-node objetoUser.ts
 
-Genéricos: Ejemplo de función genérica en acción Hero or Villain
+Genéricos: Agrupar exportaciones
 
-Agrupar exportaciones
-03:59
+
 Ejemplo aplicado de genéricos
 09:07
 Mapear respuestas http
