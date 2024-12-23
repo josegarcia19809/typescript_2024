@@ -1,0 +1,41 @@
+React & TypeScript - The Practical Guide
+Maximilian Schwarzmüller
+
+TypeScript and React Essentials: Creating a React + TypeScript Project
+
+Creating a React + TypeScript Project
+06:31
+Understanding the Role of tsconfig.json
+05:04
+Building a First Component & Facing a Missing Type
+05:47
+Defining Component Props Types
+04:05
+Storing Props Types as a Custom Type or Interface
+02:04
+Defining a Type for Props with "children"
+07:02
+Component Props & The Special "key" Prop
+00:25
+Another Way Of Typing Components
+03:18
+Exercise: Creating a Header Component
+06:11
+Using useState() and TypeScript
+06:39
+Working with State & Outputting State-based Values
+05:49
+Another Exercise & Reusing Types Across Files
+07:31
+Passing Functions as Values - In A Type-Safe Way
+10:07
+Handling & Typing Events
+08:00
+Working with Generic Event Types
+04:24
+Using useRef() with TypeScript
+08:50
+Handling User Input In A Type-Safe Way
+05:08
+Summary
+01:41
