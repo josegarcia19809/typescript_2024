@@ -1,12 +1,8 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Passing Functions as Values - In A Type-Safe Way
+TypeScript and React Essentials: Handling & Typing Events
 
-
-10:07
-Handling & Typing Events
-08:00
 Working with Generic Event Types
 04:24
 Using useRef() with TypeScript
