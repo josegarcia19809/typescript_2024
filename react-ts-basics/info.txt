@@ -1,14 +1,9 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Creating a React + TypeScript Project
+TypeScript and React Essentials: Building a First Component
 
-Creating a React + TypeScript Project
-06:31
-Understanding the Role of tsconfig.json
-05:04
-Building a First Component & Facing a Missing Type
-05:47
+
 Defining Component Props Types
 04:05
 Storing Props Types as a Custom Type or Interface
