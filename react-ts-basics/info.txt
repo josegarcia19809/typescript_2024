@@ -1,13 +1,4 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Using useRef() with TypeScript
-
-
-04:24
-
-08:50
-Handling User Input In A Type-Safe Way
-05:08
-Summary
-01:41
+TypeScript and React Essentials: Handling User Input In A Type-Safe Way
