@@ -1,12 +1,8 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Working with State & Outputting State-based Values
+TypeScript and React Essentials: Exercise - Reusing Types Across Files
 
-
-05:49
-Another Exercise & Reusing Types Across Files
-07:31
 Passing Functions as Values - In A Type-Safe Way
 10:07
 Handling & Typing Events
