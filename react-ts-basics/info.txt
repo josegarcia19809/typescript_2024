@@ -1,14 +1,8 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Component Props & The Special "key" Prop
+TypeScript and React Essentials: Another Way Of Typing Components
 
-
-07:02
-
-00:25
-Another Way Of Typing Components
-03:18
 Exercise: Creating a Header Component
 06:11
 Using useState() and TypeScript

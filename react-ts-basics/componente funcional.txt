@@ -1,0 +1,44 @@
+1. Definición de tipos con CourseGoalProps
+
+type CourseGoalProps = {
+    title: string; // El componente espera recibir una prop 'title' de tipo string.
+    children: ReactNode; // También espera una prop 'children', que puede ser cualquier
+    contenido React válido.
+};
+
+title: string: Representa el título del objetivo del curso que se mostrará en el componente.
+children: ReactNode: Permite incluir cualquier contenido React (texto, elementos JSX, otros
+componentes, etc.) como hijo del componente.
+
+
+2. Creación del componente con función flecha
+const CourseGoal: FC<CourseGoalProps> = ({ title, children }) => {
+FC<CourseGoalProps>:
+
+FC significa "Functional Component" (componente funcional).
+Este tipo se importa desde React (import { FC } from 'react';) y proporciona una plantilla
+para componentes funcionales.
+Aquí se especifica que el componente usará las propiedades definidas en CourseGoalProps.
+({ title, children }):
+
+Mediante desestructuración, se acceden directamente a las props title y children.
+
+
+3. Renderización del componente
+
+return (
+    <>
+        <article>
+            <div>
+                <h2>{title}</h2> // Muestra el título del objetivo del curso.
+                {children} // Renderiza el contenido pasado como hijos del componente.
+            </div>
+            <button>Delete</button> // Botón adicional con texto "Delete".
+        </article>
+    </>
+);
+<article>: Contenedor principal del contenido del objetivo del curso.
+<h2>{title}</h2>: Muestra el título recibido como prop.
+{children}: Inserta cualquier contenido adicional proporcionado al componente.
+<button>Delete</button>: Agrega un botón con la etiqueta "Delete", que podría estar vinculado
+a alguna acción futura.

@@ -1,11 +1,12 @@
-import {type ReactNode} from "react";
+import {FC, type ReactNode} from "react";
 
 type CourseGoalProps = {
     title: string;
     children: ReactNode
 }
 
-function CourseGoal({title, children}: CourseGoalProps) {
+// Usando una función flecha
+const CourseGoal: FC<CourseGoalProps> = ({title, children}) => {
     return (
         <>
             <article>
@@ -18,5 +19,19 @@ function CourseGoal({title, children}: CourseGoalProps) {
         </>
     );
 }
+
+// function CourseGoal({title, children}: CourseGoalProps) {
+//     return (
+//         <>
+//             <article>
+//                 <div>
+//                     <h2>{title}</h2>
+//                     {children}
+//                 </div>
+//                 <button>Delete</button>
+//             </article>
+//         </>
+//     );
+// }
 
 export default CourseGoal;
