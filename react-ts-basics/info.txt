@@ -1,12 +1,8 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Exercise - Creating a Header Component
+TypeScript and React Essentials: Using useState()
 
-
-06:11
-Using useState() and TypeScript
-06:39
 Working with State & Outputting State-based Values
 05:49
 Another Exercise & Reusing Types Across Files
