@@ -1,12 +1,14 @@
 import {FC, type ReactNode} from "react";
 
 type CourseGoalProps = {
+    id: number;
     title: string;
-    children: ReactNode
+    children: ReactNode;
+    onDelete: (id: number) => void;
 }
 
 // Usando una función flecha
-const CourseGoal: FC<CourseGoalProps> = ({title, children}) => {
+const CourseGoal: FC<CourseGoalProps> = ({id, title, children, onDelete}) => {
     return (
         <>
             <article>
@@ -14,7 +16,7 @@ const CourseGoal: FC<CourseGoalProps> = ({title, children}) => {
                     <h2>{title}</h2>
                     {children}
                 </div>
-                <button>Delete</button>
+                <button onClick={() => onDelete(id)}>Delete</button>
             </article>
         </>
     );

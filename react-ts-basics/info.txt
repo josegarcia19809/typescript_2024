@@ -1,9 +1,9 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Exercise - Reusing Types Across Files
+TypeScript and React Essentials: Passing Functions as Values - In A Type-Safe Way
 
-Passing Functions as Values - In A Type-Safe Way
+
 10:07
 Handling & Typing Events
 08:00
