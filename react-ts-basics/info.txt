@@ -1,9 +1,9 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Using useState()
+TypeScript and React Essentials: Working with State & Outputting State-based Values
 
-Working with State & Outputting State-based Values
+
 05:49
 Another Exercise & Reusing Types Across Files
 07:31
