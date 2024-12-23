@@ -1,11 +1,11 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Defining a Type for Props with "children"
+TypeScript and React Essentials: Component Props & The Special "key" Prop
 
 
 07:02
-Component Props & The Special "key" Prop
+
 00:25
 Another Way Of Typing Components
 03:18

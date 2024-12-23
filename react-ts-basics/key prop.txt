@@ -1,0 +1,55 @@
+En React, props son propiedades que se pasan a los componentes para configurarlos o
+proporcionarles datos. Entre estas propiedades, existe una propiedad especial llamada key,
+que React utiliza para identificar de manera única las instancias de los componentes en una
+lista.
+
+¿Qué es la prop key?
+La prop key ayuda a React a rastrear y manejar eficientemente los componentes en una lista.
+Es especialmente importante cuando se renderiza dinámicamente un conjunto de elementos (por
+ejemplo, con map).
+Aunque no la declares explícitamente en el tipo de tus props, puedes usarla en cualquier
+componente personalizado o nativo.
+Ejemplo explicado:
+Tipo de props del componente User:
+
+type UserProps = {
+  name: string; // El componente recibe una prop llamada 'name' de tipo string.
+};
+
+
+Componente User:
+
+function User({ name }: UserProps) {
+  return <li>User: {name}</li>; // Muestra un elemento de lista con el nombre del usuario.
+}
+
+
+Componente App:
+
+function App() {
+  const users = [{ name: 'John' }, { name: 'Mary' }, { name: 'Luke' }]; // Lista de usuarios.
+
+  return (
+    <>
+      <ul>
+        {users.map((user, index) => (
+          <User key={index} name={user.name} /> // Se asigna una key única a cada componente User.
+        ))}
+      </ul>
+    </>
+  );
+}
+
+
+¿Por qué es importante key?
+Identificación única: Cada componente debe tener una clave única para que React pueda
+diferenciarlos y optimizar su renderizado.
+Mejor rendimiento: React evita renderizar nuevamente elementos que no han cambiado si tienen
+la misma key.
+Evita errores: Si no se proporciona una key, React mostrará advertencias en la consola y el
+comportamiento de la lista podría ser impredecible.
+Consideraciones sobre la prop key:
+No se pasa automáticamente como prop al componente. Solo la usa React internamente.
+La key debe ser única dentro del contexto de la lista (por ejemplo, un id o el índice del array).
+Evita usar índices (index) como key cuando los elementos puedan cambiar de orden, ya que
+esto puede causar problemas de actualización en la interfaz.
