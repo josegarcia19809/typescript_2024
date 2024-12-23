@@ -1,13 +1,8 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Defining Component Props Types
+TypeScript and React Essentials: Storing Props Types as a Custom Type or Interface
 
-
-
-04:05
-Storing Props Types as a Custom Type or Interface
-02:04
 Defining a Type for Props with "children"
 07:02
 Component Props & The Special "key" Prop
