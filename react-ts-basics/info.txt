@@ -1,9 +1,9 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Handling & Typing Events
+TypeScript and React Essentials: Working with Generic Event Types
 
-Working with Generic Event Types
+
 04:24
 Using useRef() with TypeScript
 08:50
