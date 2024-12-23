@@ -1,10 +1,10 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Building a First Component
+TypeScript and React Essentials: Defining Component Props Types
 
 
-Defining Component Props Types
+
 04:05
 Storing Props Types as a Custom Type or Interface
 02:04
