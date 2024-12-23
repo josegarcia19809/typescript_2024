@@ -1,9 +1,9 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Another Way Of Typing Components
+TypeScript and React Essentials: Exercise - Creating a Header Component
 
-Exercise: Creating a Header Component
+
 06:11
 Using useState() and TypeScript
 06:39
