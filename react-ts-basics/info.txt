@@ -1,4 +1,35 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-TypeScript and React Essentials: Handling User Input In A Type-Safe Way
+Advanced Component Types: Building a More Dynamic & Flexible Component
+
+Problem: Flexible Components With Required Prop Combinations
+06:19
+Solution: Building Components with Discriminated Unions
+06:06
+Onwards To A New Project
+01:14
+Building a Basic Wrapper Component
+04:56
+Building Better Wrapper Components with ComponentPropsWithoutRef
+07:25
+Building a Wrapper Component That Renders Different Elements
+07:05
+Working with Type Predicates & Facing TypeScript Limitations
+10:51
+Building a Basic Polymorphic Component
+05:26
+Building a Better Polymorphic Component with Generics
+10:06
+Examples: More Component Ideas
+01:00
+Using forwardRef with TypeScript
+07:32
+Building Another Wrapper Component (Custom Form Component)
+03:45
+Sharing Logic with "unknown" & Type Casting
+10:10
+Exposing Component APIs with useImperativeHandle (with TypeScript)
+09:58
+Alternative: Avoiding Type Casting with "as"
+00:45
