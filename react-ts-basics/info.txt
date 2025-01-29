@@ -1,13 +1,13 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Solution: Building Components with Discriminated Unions
+Advanced Component Types: Onwards To A New Project *********
 
 
 06:19
 
 06:06
-Onwards To A New Project
+
 01:14
 Building a Basic Wrapper Component
 04:56
