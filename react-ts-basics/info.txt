@@ -1,11 +1,11 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Problem. Flexible Components With Required Prop Combinations
+Advanced Component Types: Solution: Building Components with Discriminated Unions
 
 
 06:19
-Solution: Building Components with Discriminated Unions
+
 06:06
 Onwards To A New Project
 01:14
