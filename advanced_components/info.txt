@@ -1,14 +1,8 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Building Better Wrapper Components with ComponentPropsWithoutRef
+Advanced Component Types: Building a Wrapper Component That Renders Different Elements
 
-
-04:56
-
-07:25
-Building a Wrapper Component That Renders Different Elements
-07:05
 Working with Type Predicates & Facing TypeScript Limitations
 10:51
 Building a Basic Polymorphic Component
