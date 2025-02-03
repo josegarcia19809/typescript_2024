@@ -1,14 +1,17 @@
+import {ComponentPropsWithoutRef} from "react";
+
 type InputProps = {
     label: string;
     id: string;
-}
+} & ComponentPropsWithoutRef<'input'>
 
-function Input({label, id}: InputProps) {
+
+function Input({label, id, ...props}: InputProps) {
     return (
         <>
             <p>
                 <label htmlFor={id}>{label}</label>
-                <input id={id} type="text"/>
+                <input id={id} type="text" {...props} />
             </p>
         </>
     );

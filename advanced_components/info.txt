@@ -1,11 +1,11 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Building a Basic Wrapper Component
+Advanced Component Types: Building Better Wrapper Components with ComponentPropsWithoutRef
 
 
 04:56
-Building Better Wrapper Components with ComponentPropsWithoutRef
+
 07:25
 Building a Wrapper Component That Renders Different Elements
 07:05
