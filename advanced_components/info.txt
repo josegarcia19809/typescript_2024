@@ -1,10 +1,8 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Building a Wrapper Component That Renders Different Elements
+Advanced Component Types: Working with Type Predicates & Facing TypeScript Limitations
 
-Working with Type Predicates & Facing TypeScript Limitations
-10:51
 Building a Basic Polymorphic Component
 05:26
 Building a Better Polymorphic Component with Generics
