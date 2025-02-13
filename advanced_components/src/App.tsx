@@ -14,7 +14,8 @@ function App() {
                 <Button href="https://google.com">A Link</Button>
             </p>
             <p>
-                <Container as="button" />
+                <Container as={Button} onClick={() => {
+                }} type="button">Click me</Container>
             </p>
         </main>
     );

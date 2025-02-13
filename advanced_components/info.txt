@@ -1,11 +1,11 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Building a Basic Polymorphic Component
+Advanced Component Types: Building a Better Polymorphic Component with Generics
 
 
 05:26
-Building a Better Polymorphic Component with Generics
+
 10:06
 Examples: More Component Ideas
 01:00
