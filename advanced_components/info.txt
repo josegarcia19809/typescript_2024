@@ -1,9 +1,9 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Working with Type Predicates & Facing TypeScript Limitations
+Advanced Component Types: Building a Basic Polymorphic Component
 
-Building a Basic Polymorphic Component
+
 05:26
 Building a Better Polymorphic Component with Generics
 10:06

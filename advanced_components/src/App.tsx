@@ -1,5 +1,6 @@
 import Input from "./components/Input.tsx";
 import Button from "./components/Button.tsx";
+import Container from './components/Container.tsx';
 
 function App() {
     return (
@@ -7,10 +8,13 @@ function App() {
             <Input label="Your name:" id="name" type="text"/>
             <Input label="Your age:" id="age" type="number"/>
             <p>
-                <Button el="button">A Button</Button>
+                <Button>A Button</Button>
             </p>
             <p>
-                <Button el="anchor" href="https://google.com">A Link</Button>
+                <Button href="https://google.com">A Link</Button>
+            </p>
+            <p>
+                <Container as="button" />
             </p>
         </main>
     );
