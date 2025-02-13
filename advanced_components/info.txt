@@ -1,14 +1,8 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Building a Better Polymorphic Component with Generics
+Advanced Component Types: Examples: More Component Ideas
 
-
-05:26
-
-10:06
-Examples: More Component Ideas
-01:00
 Using forwardRef with TypeScript
 07:32
 Building Another Wrapper Component (Custom Form Component)

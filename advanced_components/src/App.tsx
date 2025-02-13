@@ -1,6 +1,9 @@
 import Input from "./components/Input.tsx";
 import Button from "./components/Button.tsx";
 import Container from './components/Container.tsx';
+import {Demo} from "./components/Card.tsx";
+import {DemoIconButton} from "./components/IconButton.tsx";
+import {DemoList} from "./components/List.tsx";
 
 function App() {
     return (
@@ -17,6 +20,9 @@ function App() {
                 <Container as={Button} onClick={() => {
                 }} type="button">Click me</Container>
             </p>
+            <Demo/>
+            <DemoIconButton />
+            <DemoList/>
         </main>
     );
 }
