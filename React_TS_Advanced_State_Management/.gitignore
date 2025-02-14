@@ -1,0 +1,61 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# IDEs y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage y testing
+coverage/
+jest/
+cypress/videos/
+cypress/screenshots/
+
+# Caché de paquetes y dependencias
+.npm/
+.pnpm/
+.yarn/
+.yarnrc.yml
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Storybook
+storybook-static/
+
+# MacOS y otros archivos del sistema
+.DS_Store
+Thumbs.db

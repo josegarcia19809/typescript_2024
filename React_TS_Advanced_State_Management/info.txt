@@ -1,0 +1,21 @@
+React & TypeScript - The Practical Guide
+
+
+Advanced Type-Safe State with Context API & useReducer(): Iniciando proyecto******
+
+Creating a Context & Fitting Types
+
+Creating a Type-Safe Provider Component
+
+Accessing Context Type-Safe With A Custom Hook
+
+Getting Started with useReducer() & TypeScript
+
+A Basic Reducer Function & A Basic Action Type
+
+Changing State via the Reducer Function
+
+Using Better Action Types
+
+Wiring Everything Up & Finishing the App
+
