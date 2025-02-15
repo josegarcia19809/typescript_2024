@@ -1,9 +1,9 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Examples: Using forwardRef with TypeScript
+Advanced Component Types: Building Another Wrapper Component (Custom Form Component)
 
-Building Another Wrapper Component (Custom Form Component)
+
 03:45
 Sharing Logic with "unknown" & Type Casting
 10:10
