@@ -7,12 +7,12 @@ type InputProps = {
 
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
-    function Input({label, id, ...props}) {
+    function Input({label, id, ...props}, ref) {
         return (
             <>
                 <p>
                     <label htmlFor={id}>{label}</label>
-                    <input id={id} type="text" {...props} />
+                    <input id={id} name={id} type="text" {...props} ref={ref}/>
                 </p>
             </>
         );

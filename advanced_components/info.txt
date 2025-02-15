@@ -1,12 +1,8 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Building Another Wrapper Component (Custom Form Component)
+Advanced Component Types: Sharing Logic with "unknown" & Type Casting
 
-
-03:45
-Sharing Logic with "unknown" & Type Casting
-10:10
 Exposing Component APIs with useImperativeHandle (with TypeScript)
 09:58
 Alternative: Avoiding Type Casting with "as"
