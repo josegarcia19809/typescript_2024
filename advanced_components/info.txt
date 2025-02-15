@@ -1,9 +1,4 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Exposing Component APIs with useImperativeHandle (with TypeScript)
-
-
-09:58
-Alternative: Avoiding Type Casting with "as"
-00:45
+Advanced Component Types: Terminando sección
