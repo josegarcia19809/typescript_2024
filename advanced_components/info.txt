@@ -1,9 +1,9 @@
 React & TypeScript - The Practical Guide
 Maximilian Schwarzmüller
 
-Advanced Component Types: Sharing Logic with "unknown" & Type Casting
+Advanced Component Types: Exposing Component APIs with useImperativeHandle (with TypeScript)
 
-Exposing Component APIs with useImperativeHandle (with TypeScript)
+
 09:58
 Alternative: Avoiding Type Casting with "as"
 00:45
