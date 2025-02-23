@@ -1,0 +1,16 @@
+React y TypeScript - La Guía Completa Creando +10 Proyectos
+
+
+PROYECTO_React_TS - Contador de Calorias con ContextAPI y useReducer: Comenzando el Proyecto
+
+
+01:48
+Creando el Context para el Estado Global
+04:48
+Creando un Hook para la comunicación del Context y Reducer
+02:37
+Importando el Context en el CalorieTracker
+02:56
+Importando el Context en las Actividades
+03:02
+Finalizando la migración y Building
