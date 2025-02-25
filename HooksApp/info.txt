@@ -1,11 +1,7 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: Inicio de proyecto - HooksApp
+Profundizando Hooks React TS: useState
 
-
-05:12
-useState
-10:40
 useCounter - CustomHook
 06:47
 Exponer métodos del Hook

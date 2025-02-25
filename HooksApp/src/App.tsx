@@ -1,7 +1,9 @@
+import CounterApp from "./01-useState/CounterApp.tsx";
+
 function App() {
     return (
         <>
-        <h1>Hello World!</h1>
+            <CounterApp/>
         </>
     );
 }
