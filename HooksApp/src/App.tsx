@@ -1,9 +1,9 @@
-import CounterWithCustomHook from "./01-useState/CounterWithCustomHook.tsx";
+import AlarmView from "./01-useState/AlarmView.tsx";
 
 function App() {
     return (
         <>
-            <CounterWithCustomHook/>
+            <AlarmView/>
         </>
     );
 }
