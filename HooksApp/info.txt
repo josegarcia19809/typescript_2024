@@ -1,11 +1,7 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: useCounter - CustomHook
+Profundizando Hooks React TS: Exponer métodos del Hook
 
-
-06:47
-Exponer métodos del Hook
-08:44
 useEffect - SimpleForm
 09:51
 Dependencias del useEffect
