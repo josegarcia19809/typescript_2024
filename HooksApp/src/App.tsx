@@ -1,9 +1,9 @@
-import CounterApp from "./01-useState/CounterApp.tsx";
+import CounterWithCustomHook from "./01-useState/CounterWithCustomHook.tsx";
 
 function App() {
     return (
         <>
-            <CounterApp/>
+            <CounterWithCustomHook/>
         </>
     );
 }
