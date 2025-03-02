@@ -1,0 +1,48 @@
+PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
+
+Administrador de Pacientes - Zustand: Creando el Proyecto
+
+
+Creando el Proyecto
+03:26
+Creando los primeros componentes
+03:23
+Introducción a React Hook Form
+04:43
+Procesar el Formulario con React Hook Form
+03:41
+Creando un componente para mensajes de error
+04:15
+Agregando validación a los otros campos
+04:32
+Definiendo un Type al Formulario
+05:56
+Introducción a Zustand
+02:09
+Creando el Store de Zustand
+04:05
+Definiendo acciones en el Store de Zustand
+04:09
+Escribiendo en el Estado de Zustand
+06:49
+Trabajando con el Listado de Pacientes
+05:43
+Mostrando la información del Paciente
+05:20
+Creando los botones de Editar y eliminar
+03:04
+Eliminar Pacientes en Zustand
+03:44
+Obtener el paciente a editar
+04:22
+Incorporar Redux DevTools para inspeccionar el Store de Zustand
+03:32
+Llenar el Formulario cuando editamos un Paciente
+03:28
+Actualizando el Paciente
+05:11
+Mensajes de Alerta con React-Toastify
+04:42
+Mostrar Toast en Editar y eliminar
+02:50
+LocalStorage al contenido del Store de Zustand
