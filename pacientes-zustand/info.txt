@@ -1,11 +1,7 @@
 PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
 
-Administrador de Pacientes - Zustand: Creando un componente para mensajes de error
+Administrador de Pacientes - Zustand: Agregando validación a los otros campos
 
-
-04:15
-Agregando validación a los otros campos
-04:32
 Definiendo un Type al Formulario
 05:56
 Introducción a Zustand
