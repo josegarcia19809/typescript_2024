@@ -1,8 +1,8 @@
 PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
 
-Administrador de Pacientes - Zustand: Creando los primeros componentes
+Administrador de Pacientes - Zustand: Introducción a React Hook Form
 
-Introducción a React Hook Form
+
 04:43
 Procesar el Formulario con React Hook Form
 03:41
