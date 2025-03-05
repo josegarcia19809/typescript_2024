@@ -1,12 +1,13 @@
 import {useForm} from 'react-hook-form';
 import Error from "./Error.tsx";
+import {DraftPatient} from "../types";
 
 export default function PatientForm() {
 
-    const {register, handleSubmit, formState: {errors}} = useForm();
+    const {register, handleSubmit, formState: {errors}} = useForm<DraftPatient>();
 
-    const registerPatient = () => {
-        console.log('register patient');
+    const registerPatient = (data: DraftPatient) => {
+        console.log(data);
     }
 
     return (
@@ -44,10 +45,7 @@ export default function PatientForm() {
                     />
                 </div>
                 {errors.name && (
-                    <Error>{errors.name?.message?.toString()}</Error>
-                )}
-                {errors.maxLength && (
-                    <Error>{errors.name?.message?.toString()}</Error>
+                    <Error>{errors.name?.message}</Error>
                 )}
 
                 <div className="mb-5">
@@ -67,7 +65,7 @@ export default function PatientForm() {
                     />
                 </div>
                 {errors.caretaker && (
-                    <Error>{errors.caretaker?.message?.toString()}</Error>
+                    <Error>{errors.caretaker?.message}</Error>
                 )}
                 <div className="mb-5">
                     <label htmlFor="email" className="text-sm uppercase font-bold">
@@ -88,7 +86,7 @@ export default function PatientForm() {
                     />
                 </div>
                 {errors.email && (
-                    <Error>{errors.email?.message?.toString()}</Error>
+                    <Error>{errors.email?.message}</Error>
                 )}
                 <div className="mb-5">
                     <label htmlFor="date" className="text-sm uppercase font-bold">
@@ -106,7 +104,7 @@ export default function PatientForm() {
                     />
                 </div>
                 {errors.date && (
-                    <Error>{errors.date?.message?.toString()}</Error>
+                    <Error>{errors.date?.message}</Error>
                 )}
                 <div className="mb-5">
                     <label htmlFor="symptoms" className="text-sm uppercase font-bold">
@@ -124,11 +122,12 @@ export default function PatientForm() {
                     />
                 </div>
                 {errors.symptoms && (
-                    <Error>{errors.symptoms?.message?.toString()}</Error>
+                    <Error>{errors.symptoms?.message}</Error>
                 )}
                 <input
                     type="submit"
-                    className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-colors"
+                    className="bg-indigo-600 w-full p-3 text-white uppercase font-bold
+                    hover:bg-indigo-700 cursor-pointer transition-colors"
                     value='Guardar Paciente'
                 />
             </form>
