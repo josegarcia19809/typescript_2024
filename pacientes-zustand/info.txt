@@ -1,8 +1,8 @@
 PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
 
-Administrador de Pacientes-Zustand: Escribiendo en el Estado de Zustand
+Administrador de Pacientes-Zustand: Trabajando con el Listado de Pacientes
 
-Trabajando con el Listado de Pacientes
+
 05:43
 Mostrando la información del Paciente
 05:20
