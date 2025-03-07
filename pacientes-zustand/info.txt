@@ -1,9 +1,7 @@
 PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
 
-Administrador de Pacientes-Zustand: Mostrando la información del Paciente
+Administrador de Pacientes-Zustand: Creando los botones de Editar y eliminar
 
-Creando los botones de Editar y eliminar
-03:04
 Eliminar Pacientes en Zustand
 03:44
 Obtener el paciente a editar
