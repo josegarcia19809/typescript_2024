@@ -1,11 +1,7 @@
 PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
 
-Administrador de Pacientes-Zustand: Eliminar Pacientes en Zustand
+Administrador de Pacientes-Zustand: Obtener el paciente a editar
 
-
-03:44
-Obtener el paciente a editar
-04:22
 Incorporar Redux DevTools para inspeccionar el Store de Zustand
 03:32
 Llenar el Formulario cuando editamos un Paciente
