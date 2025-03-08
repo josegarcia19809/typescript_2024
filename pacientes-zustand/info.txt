@@ -1,11 +1,8 @@
 PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
 
-Administrador de Pacientes-Zustand: Llenar el Formulario cuando editamos un Paciente
+Administrador de Pacientes-Zustand: Actualizando el Paciente
 
-Actualizando el Paciente
-05:11
+
 Mensajes de Alerta con React-Toastify
-04:42
 Mostrar Toast en Editar y eliminar
-02:50
 LocalStorage al contenido del Store de Zustand
