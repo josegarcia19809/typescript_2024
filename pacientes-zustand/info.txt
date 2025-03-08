@@ -1,8 +1,8 @@
 PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
 
-Administrador de Pacientes-Zustand: Obtener el paciente a editar
+Administrador de Pacientes-Zustand: Incorporar Redux DevTools para inspeccionar el Store de Zustand
 
-Incorporar Redux DevTools para inspeccionar el Store de Zustand
+
 03:32
 Llenar el Formulario cuando editamos un Paciente
 03:28
