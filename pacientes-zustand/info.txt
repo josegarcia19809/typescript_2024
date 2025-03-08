@@ -1,8 +1,3 @@
 PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
 
-Administrador de Pacientes-Zustand: Mostrar Toast en Editar y eliminar
-
-
-
-
-LocalStorage al contenido del Store de Zustand
+Administrador de Pacientes-Zustand: LocalStorage al contenido del Store de Zustand. FIN
