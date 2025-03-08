@@ -1,8 +1,8 @@
 PROYECTO - Administrador de Pacientes con Zustand y React Hook Form
 
-Administrador de Pacientes-Zustand: Mensajes de Alerta con React-Toastify
+Administrador de Pacientes-Zustand: Mostrar Toast en Editar y eliminar
 
 
 
-Mostrar Toast en Editar y eliminar
+
 LocalStorage al contenido del Store de Zustand
