@@ -4,6 +4,21 @@ Maximilian Schwarzmüller
 TypeScript: Tu completa guía y manual de mano.
 Fernando Herrera
 
+Mastering TypeScript - 2025 Edition
+Colt Steele
+
+Functions: Function Types EXERCISE
+
+
+
+
+
+
+
+
+
+
+
 Ejecutar con ts-node objetoUser.ts
 Quicktype.io extensión: Descargar extensión en VSCode - Paste JSON as Code
 
