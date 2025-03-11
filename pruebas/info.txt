@@ -7,9 +7,24 @@ Fernando Herrera
 Mastering TypeScript - 2025 Edition
 Colt Steele
 
-Functions: Function Types EXERCISE
+Object Types: Working With Object Types
 
-
+Excess Properties
+02:51
+Object Types Quiz
+1 preguntas
+Creating Type Aliases
+04:01
+Nested Objects
+07:36
+Optional Properties
+01:29
+The readonly Modifier
+02:26
+Intersection Types
+04:00
+Object Types EXERCISE
+05:15
 
 
 
