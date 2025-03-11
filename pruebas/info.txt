@@ -7,10 +7,8 @@ Fernando Herrera
 Mastering TypeScript - 2025 Edition
 Colt Steele
 
-Object Types: Working With Object Types
+Object Types: Excess Properties
 
-Excess Properties
-02:51
 Object Types Quiz
 1 preguntas
 Creating Type Aliases
