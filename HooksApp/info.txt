@@ -1,11 +1,7 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: useEffect unmount - Cleanup
+Profundizando Hooks React TS: useEffect - Precauciones
 
-
-06:51
-useEffect - Precauciones
-08:03
 Formulario con custom Hook
 10:41
 Tarea - Implementar funcionalidad de Reset
