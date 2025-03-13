@@ -1,8 +1,8 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: Dependencias del useEffect
+Profundizando Hooks React TS: useEffect unmount - Cleanup
 
-useEffect unmount - Cleanup
+
 06:51
 useEffect - Precauciones
 08:03

@@ -1,4 +1,5 @@
 import {ChangeEvent, useEffect, useState} from "react";
+import Message from "./Message.tsx";
 
 interface FormState {
     username: string;
@@ -24,15 +25,15 @@ function SimpleForm() {
     }
 
     useEffect(() => {
-        console.log("UseEffect called")
+        // console.log("UseEffect called")
     },[]);
 
     useEffect(() => {
-        console.log("formState changed")
+        // console.log("formState changed")
     },[formState]);
 
     useEffect(() => {
-        console.log("email changed")
+        // console.log("email changed")
     },[email]);
 
 
@@ -44,6 +45,9 @@ function SimpleForm() {
                    name="username" value={username} onChange={onInputChange}/>
             <input type="email" className="form-control mt-2" placeholder="jose@example.com"
                    name="email" value={email} onChange={onInputChange}/>
+            {
+                (username === "jgarcia") && <Message/>
+            }
         </>
     );
 }
