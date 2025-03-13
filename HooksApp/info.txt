@@ -1,8 +1,8 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: Exponer métodos del Hook
+Profundizando Hooks React TS: useEffect - SimpleForm
 
-useEffect - SimpleForm
+
 09:51
 Dependencias del useEffect
 04:56
