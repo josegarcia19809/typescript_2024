@@ -8,8 +8,8 @@ interface FormState {
 function SimpleForm() {
 
     const [formState, setFormState] = useState<FormState>({
-        username: "pk",
-        email: "pk@gmail.com",
+        username: "jgarcia",
+        email: "jgarcia@gmail.com",
     });
 
     const {username, email} = formState;
