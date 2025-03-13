@@ -22,9 +22,18 @@ function SimpleForm() {
         );
 
     }
+
     useEffect(() => {
         console.log("UseEffect called")
-    },[])
+    },[]);
+
+    useEffect(() => {
+        console.log("formState changed")
+    },[formState]);
+
+    useEffect(() => {
+        console.log("email changed")
+    },[email]);
 
 
     return (

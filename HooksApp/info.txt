@@ -1,11 +1,7 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: useEffect - SimpleForm
+Profundizando Hooks React TS: Dependencias del useEffect
 
-
-09:51
-Dependencias del useEffect
-04:56
 useEffect unmount - Cleanup
 06:51
 useEffect - Precauciones
