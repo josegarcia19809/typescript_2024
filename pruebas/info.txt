@@ -7,10 +7,8 @@ Fernando Herrera
 Mastering TypeScript - 2025 Edition
 Colt Steele
 
-Object Types: Creating Type Aliases
+Object Types: Nested Objects
 
-Nested Objects
-07:36
 Optional Properties
 01:29
 The readonly Modifier
