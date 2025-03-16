@@ -7,12 +7,8 @@ Fernando Herrera
 Mastering TypeScript - 2025 Edition
 Colt Steele
 
-Object Types: Excess Properties
+Object Types: Creating Type Aliases
 
-Object Types Quiz
-1 preguntas
-Creating Type Aliases
-04:01
 Nested Objects
 07:36
 Optional Properties
