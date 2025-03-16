@@ -7,12 +7,8 @@ Fernando Herrera
 Mastering TypeScript - 2025 Edition
 Colt Steele
 
-Object Types: Optional Properties
+Object Types: The readonly Modifier
 
-
-01:29
-The readonly Modifier
-02:26
 Intersection Types
 04:00
 Object Types EXERCISE
