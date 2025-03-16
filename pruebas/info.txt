@@ -7,9 +7,9 @@ Fernando Herrera
 Mastering TypeScript - 2025 Edition
 Colt Steele
 
-Object Types: Nested Objects
+Object Types: Optional Properties
 
-Optional Properties
+
 01:29
 The readonly Modifier
 02:26
