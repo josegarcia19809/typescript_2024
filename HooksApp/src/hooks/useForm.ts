@@ -14,12 +14,16 @@ function UseForm<T extends FormState>(initialForm: T) {
                 [name]: value
             })
         );
+    }
 
+    const reset = (): void => {
+        setFormState(initialForm);
     }
     return {
         ...formState,
         formState,
         onInputChange,
+        reset,
     }
 }
 
