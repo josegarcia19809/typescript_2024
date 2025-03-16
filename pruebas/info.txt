@@ -7,9 +7,9 @@ Fernando Herrera
 Mastering TypeScript - 2025 Edition
 Colt Steele
 
-Object Types: The readonly Modifier
+Object Types: Intersection Types
 
-Intersection Types
+
 04:00
 Object Types EXERCISE
 05:15
