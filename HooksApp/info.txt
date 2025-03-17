@@ -1,8 +1,8 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: Implementar funcionalidad de Reset
+Profundizando Hooks React TS: useFetch - CustomHook
 
-useFetch - CustomHook
+
 07:22
 Parametrizar y consumir nuestro custom Hook
 08:58
