@@ -1,11 +1,7 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: useFetch - CustomHook
+Profundizando Hooks React TS: Parametrizar y consumir nuestro custom Hook
 
-
-07:22
-Parametrizar y consumir nuestro custom Hook
-08:58
 useFetch + useCounter
 10:28
 Incorporar caché

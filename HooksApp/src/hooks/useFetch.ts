@@ -7,7 +7,7 @@ type FetchState<T> = {
     error: Error | null;
 }
 
-function UseFetch<T>() {
+function UseFetch<T>(url: string) {
 
     const [state, setState] = useState<FetchState<T>>({
         data: null,
@@ -16,21 +16,43 @@ function UseFetch<T>() {
         error: null,
     });
 
+    const setLoadingState = () => {
+        setState({
+            data: null,
+            isLoading: true,
+            hasError: false,
+            error: null
+        })
+    }
 
     useEffect(() => {
         getFetch();
-    }, []);
+    }, [url]);
 
     const getFetch = async () => {
+        setLoadingState();
         try {
-            const response = await fetch("https://pokeapi.co/api/v2/pokemon/1");
+            const response = await fetch(url);
+
+            // sleep
+            await new Promise(resolve => setTimeout(resolve, 1500));
             if (!response.ok) {
                 throw new Error("Could not find pokemon");
             }
             const data: T = await response.json();
-            console.log({data});
+            setState({
+                data: data,
+                isLoading: false,
+                hasError: false,
+                error: null,
+            })
         } catch (err) {
-            setState({data: null, isLoading: false, hasError: true, error: err as Error});
+            setState({
+                data: null,
+                isLoading: false,
+                hasError: true,
+                error: err as Error
+            });
         }
     }
     return {
