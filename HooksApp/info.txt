@@ -1,8 +1,8 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: Parametrizar y consumir nuestro custom Hook
+Profundizando Hooks React TS: useFetch + useCounter Pokemon
 
-useFetch + useCounter
+
 10:28
 Incorporar caché
 07:27

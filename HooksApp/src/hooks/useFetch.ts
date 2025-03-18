@@ -35,7 +35,7 @@ function UseFetch<T>(url: string) {
             const response = await fetch(url);
 
             // sleep
-            await new Promise(resolve => setTimeout(resolve, 1500));
+            await new Promise(resolve => setTimeout(resolve, 500));
             if (!response.ok) {
                 throw new Error("Could not find pokemon");
             }
