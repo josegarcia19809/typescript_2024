@@ -7,6 +7,8 @@ type FetchState<T> = {
     error: Error | null;
 }
 
+const localCache: Record<string, unknown> = {};
+
 function UseFetch<T>(url: string) {
 
     const [state, setState] = useState<FetchState<T>>({
@@ -30,6 +32,17 @@ function UseFetch<T>(url: string) {
     }, [url]);
 
     const getFetch = async () => {
+
+        if(localCache[url]){
+            console.log("Usando cache...")
+            setState({
+                data: localCache[url] as T,
+                isLoading: false,
+                hasError: false,
+                error: null,
+            });
+            return;
+        }
         setLoadingState();
         try {
             const response = await fetch(url);
@@ -46,6 +59,9 @@ function UseFetch<T>(url: string) {
                 hasError: false,
                 error: null,
             })
+
+            // Guardar la cache
+            localCache[url] = data;
         } catch (err) {
             setState({
                 data: null,

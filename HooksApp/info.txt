@@ -1,11 +1,7 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: useFetch + useCounter Pokemon
+Profundizando Hooks React TS: Incorporar caché
 
-
-10:28
-Incorporar caché
-07:27
 useRef - Primer uso
 08:22
 useLayoutEffect
