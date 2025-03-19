@@ -7,11 +7,28 @@ Fernando Herrera
 Mastering TypeScript - 2025 Edition
 Colt Steele
 
+The Modern Javascript Bootcamp Course
+Stephen Grider, Colt Steele
 
 
+A Few Miscellaneous JS Features: Rest Parameters
 
-
-
+Default Parameters
+07:58
+Spread for Function Calls
+06:53
+Spread in Array Literals
+08:08
+Spread in Object Literals
+07:49
+Destructuring Arrays
+06:16
+Destructuring Objects
+04:16
+Nested Destructuring
+02:54
+Destructuring Parameters
+05:04
 
 
 
