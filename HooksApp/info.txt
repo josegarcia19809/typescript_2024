@@ -1,9 +1,7 @@
 React: De cero a experto ( Hooks y MERN )
 
-Profundizando Hooks React TS: Incorporar caché
+Profundizando Hooks React TS: useRef - Primer uso
 
-useRef - Primer uso
-08:22
 useLayoutEffect
 08:51
 Memo - Método de React
