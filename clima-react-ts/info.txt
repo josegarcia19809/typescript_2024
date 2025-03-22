@@ -1,0 +1,47 @@
+React y TypeScript - La Guía Completa Creando +10 Proyectos
+
+Aplicación de Clima que obtiene el Clima en tiempo real con una API
+
+Proyecto ReactTS. Clima API: Creando el Proyecto
+
+Creando un API Key y Que es una API?
+03:55
+Introducción a CSS Modules
+06:46
+Agregando los formularios para consultar el Clima
+03:41
+CSS a los Formularios
+04:40
+Colocando en el State la ciudad y pais a consultar el Clima
+04:38
+Validando el Formulario
+05:55
+Creando un Hook para Consultar el Clima
+03:47
+Primer Llamado hacia la API
+10:03
+¿Qué son las variables de Entorno?
+06:53
+Segundo llamado hacia la API para obtener el Clima
+04:47
+Tipar Resultados de una API - Asignar Type
+04:01
+Tipar Resultados de una API - Type Guards
+10:09
+Tipar Resultados de una API - Validar con ZOD
+07:49
+Tipar Resultados de una API - Validar con Valibot
+05:39
+Colocando el Resultado de la API en el State
+04:12
+Mostrando los Resultados del Clima
+06:24
+Finalizando el Componente de Clima
+03:17
+Agregando un Spinner de Carga
+08:07
+Reiniciar el Estado después de cada consulta
+02:28
+Trabajar con ciudades que no existen
+04:37
+Deployment del PROYECTO con API Key
