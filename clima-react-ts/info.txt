@@ -2,9 +2,9 @@ React y TypeScript - La Guía Completa Creando +10 Proyectos
 
 Aplicación de Clima que obtiene el Clima en tiempo real con una API
 
-Proyecto ReactTS. Clima API: Introducción a CSS Modules
+Proyecto ReactTS. Clima API: Agregando los formularios para consultar el Clima
 
-Agregando los formularios para consultar el Clima
+
 03:41
 CSS a los Formularios
 04:40
