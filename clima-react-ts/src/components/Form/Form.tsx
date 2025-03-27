@@ -5,7 +5,12 @@ import {SearchType} from "../../types/index.ts";
 import Alert from "../Alert/Alert.tsx";
 
 
-function Form() {
+type FormProps = {
+    fetchWeather: () => void;
+}
+
+
+function Form({fetchWeather}: FormProps) {
 
     const [search, setSearch] = useState<SearchType>({
         city: '',
@@ -28,7 +33,7 @@ function Form() {
             setAlert("Todos los campos son obligatorios");
             return;
         }
-
+        fetchWeather();
     };
     return (
         <>

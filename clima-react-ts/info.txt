@@ -2,10 +2,8 @@ React y TypeScript - La Guía Completa Creando +10 Proyectos
 
 Aplicación de Clima que obtiene el Clima en tiempo real con una API
 
-Proyecto ReactTS. Clima API: Validando el Formulario
+Proyecto ReactTS. Clima API: Creando un Hook para Consultar el Clima
 
-Creando un Hook para Consultar el Clima
-03:47
 Primer Llamado hacia la API
 10:03
 ¿Qué son las variables de Entorno?
