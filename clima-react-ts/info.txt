@@ -2,12 +2,8 @@ React y TypeScript - La Guía Completa Creando +10 Proyectos
 
 Aplicación de Clima que obtiene el Clima en tiempo real con una API
 
-Proyecto ReactTS. Clima API: Tipar Resultados de una API - Asignar Type
+Proyecto ReactTS. Clima API: Tipar Resultados de una API - Validar con ZOD
 
-Tipar Resultados de una API - Type Guards
-10:09
-Tipar Resultados de una API - Validar con ZOD
-07:49
 Tipar Resultados de una API - Validar con Valibot
 05:39
 Colocando el Resultado de la API en el State
