@@ -6,7 +6,7 @@ import Alert from "../Alert/Alert.tsx";
 
 
 type FormProps = {
-    fetchWeather: () => void;
+    fetchWeather: (search: SearchType) => Promise<void>;
 }
 
 
@@ -33,7 +33,7 @@ function Form({fetchWeather}: FormProps) {
             setAlert("Todos los campos son obligatorios");
             return;
         }
-        fetchWeather();
+        fetchWeather(search);
     };
     return (
         <>
