@@ -2,9 +2,9 @@ React y TypeScript - La Guía Completa Creando +10 Proyectos
 
 Aplicación de Clima que obtiene el Clima en tiempo real con una API
 
-Proyecto ReactTS. Clima API: variables de Entorno
+Proyecto ReactTS. Clima API: Segundo llamado hacia la API para obtener el Clima
 
-Segundo llamado hacia la API para obtener el Clima
+
 04:47
 Tipar Resultados de una API - Asignar Type
 04:01
