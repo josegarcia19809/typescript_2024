@@ -2,9 +2,9 @@ React y TypeScript - La Guía Completa Creando +10 Proyectos
 
 Aplicación de Clima que obtiene el Clima en tiempo real con una API
 
-Proyecto ReactTS. Clima API: Finalizando el Componente de Clima
+Proyecto ReactTS. Clima API: Agregando un Spinner de Carga
 
-Agregando un Spinner de Carga
+
 08:07
 Reiniciar el Estado después de cada consulta
 02:28
