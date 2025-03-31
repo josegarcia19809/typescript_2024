@@ -2,12 +2,7 @@ React y TypeScript - La Guía Completa Creando +10 Proyectos
 
 Aplicación de Clima que obtiene el Clima en tiempo real con una API
 
-Proyecto ReactTS. Clima API: Trabajar con ciudades que no existen
+Proyecto ReactTS. Clima API: Deployment del PROYECTO  FIN
 
 
-08:07
-
-02:28
-
-04:37
-Deployment del PROYECTO con API Key
+https://www.netlify.com/
