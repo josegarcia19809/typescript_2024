@@ -2,12 +2,12 @@ React y TypeScript - La Guía Completa Creando +10 Proyectos
 
 Aplicación de Clima que obtiene el Clima en tiempo real con una API
 
-Proyecto ReactTS. Clima API: Reiniciar el Estado después de cada consulta
+Proyecto ReactTS. Clima API: Trabajar con ciudades que no existen
 
 
 08:07
 
 02:28
-Trabajar con ciudades que no existen
+
 04:37
 Deployment del PROYECTO con API Key

@@ -41,6 +41,7 @@ function UseWeather() {
     const [weather, setWeather] = useState<Weather>(initialState);
 
     const [loading, setLoading] = useState<boolean>(false);
+    const [notFound, setNotFound] = useState<boolean>(false);
 
     const fetchWeather = async (search: SearchType) => {
         setLoading(true);
@@ -49,6 +50,12 @@ function UseWeather() {
             const appId = import.meta.env.VITE_API_KEY;
             const geoUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${search.city},${search.country}&appid=${appId}`;
             const {data} = await axios.get(geoUrl);
+
+            // Comprobar si existe la ciuda
+            if (!data[0]) {
+                setNotFound(true);
+                return;
+            }
 
             const lat = data[0].lat;
             const lon = data[0].lon;
@@ -79,6 +86,7 @@ function UseWeather() {
     return {
         weather,
         loading,
+        notFound,
         fetchWeather,
         hasWeatherData,
     };
