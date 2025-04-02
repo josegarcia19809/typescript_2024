@@ -1,0 +1,48 @@
+React y TypeScript - La Guía Completa Creando +10 Proyectos
+
+Cotizador de Criptomonedas: Este proyecto se conecta a una API para obtener el precio de una Criptomoneda en dolares, pesos mexicanos y otras monedas. Este proyecto incluye Zustand y Zod para validar las respuestas que se obtienen de una API.
+
+PROYECTO - Cotizador de Criptomonedas en Tiempo Real con ZOD y Zustand
+
+Cotizador de Criptomonedas, React TS: Creando el Proyecto
+
+Primeros pasos con código CSS
+05:51
+Creando El Formulario
+05:17
+Agregando las Monedas para Cotizar Criptos
+01:24
+Schema de Zod y Mostrando las Monedas
+03:34
+Creando el Store de Zustand
+04:31
+Obteniendo las Criptomonedas en Zustand
+03:39
+Validando la respuesta de la API con Zod
+04:29
+Finalizando la función que obtiene las Criptos
+05:48
+Agregando Redux Dev Tools para visualizar los datos del Store
+01:11
+Moviendo la función que obtiene la API hacia otro archivo
+02:01
+Mostrando las Criptomonedas en el Formulario
+02:36
+Creando State para Moneda y Criptomoneda a Cotizar
+03:59
+Agregando Validación
+03:21
+Obteniendo la Moneda y Cripto a Cotizar
+03:38
+Llamando la API para obtener la cotización Actual
+04:07
+Validando la Respuesta de la API con ZOD
+04:44
+Colocando la Respuesta en el State
+02:40
+Mostrando el Resultado de la cotización
+03:33
+Agregando CSS al resultado de la cotización
+05:08
+Agregando un spinner de Carga y Deployment
+
