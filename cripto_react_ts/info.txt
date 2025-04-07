@@ -4,10 +4,8 @@ Cotizador de Criptomonedas: Este proyecto se conecta a una API para obtener el p
 
 PROYECTO - Cotizador de Criptomonedas en Tiempo Real con ZOD y Zustand
 
-Cotizador de Criptomonedas, React TS: Creando el Proyecto
+Cotizador de Criptomonedas, React TS: Primeros pasos con código CSS
 
-Primeros pasos con código CSS
-05:51
 Creando El Formulario
 05:17
 Agregando las Monedas para Cotizar Criptos
