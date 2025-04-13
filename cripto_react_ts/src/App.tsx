@@ -1,6 +1,15 @@
 import CriptoSearchForm from "./components/CriptoSearchForm.tsx";
+import {useCryptoStore} from "./store.ts";
+import {useEffect} from "react";
 
 function App() {
+
+    const fetchCryptos = useCryptoStore((state)=>state.fetchCryptos);
+
+    useEffect(() => {
+        fetchCryptos();
+    }, []);
+
     return (
         <>
             <div className="container">
