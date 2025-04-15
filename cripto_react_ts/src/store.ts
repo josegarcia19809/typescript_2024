@@ -4,6 +4,7 @@ import {
     CryptoCurrenciesResponseSchema
 } from "./schema/crypto-schema.ts";
 import {Cryptocurrency} from "./types";
+import {devtools} from 'zustand/middleware';
 
 type CryptoStore = {
     cryptoscurrencies: Cryptocurrency[]
@@ -20,7 +21,7 @@ async function getCryptos() {
 }
 
 
-export const useCryptoStore = create<CryptoStore>((set) => ({
+export const useCryptoStore = create<CryptoStore>()(devtools((set) => ({
     cryptoscurrencies: [],
     fetchCryptos: async () => {
         const cryptocurrencies = await getCryptos();
@@ -28,4 +29,4 @@ export const useCryptoStore = create<CryptoStore>((set) => ({
             cryptoscurrencies: cryptocurrencies,
         }))
     }
-}));
+})));
