@@ -2,6 +2,7 @@ import CriptoSearchForm from "./components/CriptoSearchForm.tsx";
 import {useCryptoStore} from "./store.ts";
 import {useEffect} from "react";
 import CryptoPriceDisplay from "./components/CryptoPriceDisplay.tsx";
+import "./Spinner.css";
 
 function App() {
 
