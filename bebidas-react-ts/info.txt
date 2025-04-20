@@ -4,14 +4,8 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: Instalando Tailwind
+TS React. Bebidas y Recetas Router DOM: Instalando React Router
 
-
-02:14
-
-01:48
-¿Qué es React Router?
-03:33
 Creando el Router
 04:45
 Creando el Header
