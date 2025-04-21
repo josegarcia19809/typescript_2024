@@ -1,7 +1,9 @@
+import Header from "../components/Header.tsx";
+
 function IndexPage() {
     return (
         <>
-        <h1>Index</h1>
+            <Header/>
         </>
     );
 }
