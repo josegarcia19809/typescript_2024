@@ -4,11 +4,11 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: Agregando Navegación entre páginas
+TS React. Bebidas y Recetas Router DOM: Resaltando la página actual
 
 
 03:03
-Resaltando la página actual
+
 02:18
 El Hook useLocation() para saber información de la ruta actual
 02:23
