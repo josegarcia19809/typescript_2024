@@ -6,10 +6,8 @@ function Header() {
     const {pathname} = useLocation();
     const isHome = useMemo(() => pathname === '/', [pathname]);
 
-    console.log(isHome)
-
     return (
-        <header className="bg-slate-800">
+        <header className={isHome ? 'bg-header bg-center bg-cover' : 'bg-gray-900'}>
             <div className="mx-auto container px-5 py-16">
                 <div className="flex justify-between items-center">
                     <div>
