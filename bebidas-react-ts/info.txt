@@ -4,12 +4,8 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: El Hook useLocation() para saber información de la ruta actual
+TS React. Bebidas y Recetas Router DOM: Creando el Formulario de Búsqueda
 
-
-02:23
-Creando el Formulario de Búsqueda
-06:21
 Theming en Tailwind para añadir una imagen de fondo
 03:12
 Múltiples Stores en Zustand con Slices Pattern
