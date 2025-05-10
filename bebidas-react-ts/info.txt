@@ -4,9 +4,9 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: Múltiples Stores en Zustand con Slices Pattern
+TS React. Bebidas y Recetas Router DOM: Primeros pasos con los múltiples stores
 
-Primeros pasos con los múltiples stores
+
 02:44
 Obteniendo las Categorías
 03:25
