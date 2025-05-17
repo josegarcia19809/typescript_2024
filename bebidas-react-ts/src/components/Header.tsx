@@ -1,9 +1,13 @@
 import {NavLink, useLocation} from "react-router-dom";
-import {useEffect, useMemo} from "react";
+import {ChangeEvent, useEffect, useMemo, useState} from "react";
 import {useAppStore} from "../stores/useAppStore.ts";
 
 function Header() {
 
+    const [searchFilters, setSearchFilters] = useState({
+        ingredient: '',
+        category: ''
+    })
     const {pathname} = useLocation();
     const isHome = useMemo(() => pathname === '/', [pathname]);
 
@@ -13,6 +17,13 @@ function Header() {
     useEffect(() => {
         fetchCategories();
     }, []);
+
+    const handleChange = (e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLSelectElement>) => {
+        setSearchFilters({
+            ...searchFilters,
+            [e.target.name]: e.target.value
+        })
+    }
 
     return (
         <header className={isHome ? 'bg-header bg-center bg-cover' : 'bg-gray-900'}>
@@ -48,16 +59,20 @@ function Header() {
                                 name="ingredient"
                                 className="p-3 w-full rounded-lg focus:outline-none"
                                 placeholder="Nombre o ingrediente. Ejemplo: Vodka, Tequila, Café"
+                                value={searchFilters.ingredient}
+                                onChange={handleChange}
                             />
                         </div>
 
                         <div className="space-y-4">
-                            <label htmlFor="ingredient"
+                            <label htmlFor="category"
                                    className="block text-white uppercase font-extrabold text-lg">Categorías</label>
                             <select
-                                id="ingredient"
-                                name="ingredient"
+                                id="category"
+                                name="category"
                                 className="p-3 w-full rounded-lg focus:outline-none"
+                                value={searchFilters.category}
+                                onChange={handleChange}
                             >
                                 <option value="">-- Seleccione --</option>
                                 {categories.drinks.map(category => (

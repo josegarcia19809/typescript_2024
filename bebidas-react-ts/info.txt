@@ -4,16 +4,8 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: Colocar las categorías en el select
+TS React. Bebidas y Recetas Router DOM: Leyendo los datos ingresados en el Formulario
 
-
-07:35
- y RETO 06
-01:18
-SOLUCIÓN RETO 06
-01:33
-Leyendo los datos ingresados en el Formulario
-02:49
 Trabajando con el Submit al formulario de búsqueda
 05:13
 Buscar las Recetas en base a categoría e Ingredientes
