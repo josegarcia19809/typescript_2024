@@ -8,6 +8,8 @@ function Header() {
     const isHome = useMemo(() => pathname === '/', [pathname]);
 
     const fetchCategories = useAppStore(state => state.fetchCategories);
+    const categories = useAppStore(state => state.categories);
+    console.log(categories);
 
     useEffect(() => {
         fetchCategories();
