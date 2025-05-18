@@ -1,5 +1,5 @@
 import {NavLink, useLocation} from "react-router-dom";
-import {ChangeEvent, useEffect, useMemo, useState} from "react";
+import {ChangeEvent, FormEvent, useEffect, useMemo, useState} from "react";
 import {useAppStore} from "../stores/useAppStore.ts";
 
 function Header() {
@@ -13,6 +13,7 @@ function Header() {
 
     const fetchCategories = useAppStore(state => state.fetchCategories);
     const categories = useAppStore(state => state.categories);
+    const searchRecipes = useAppStore(state => state.searchRecipes);
 
     useEffect(() => {
         fetchCategories();
@@ -23,6 +24,19 @@ function Header() {
             ...searchFilters,
             [e.target.name]: e.target.value
         })
+    }
+
+    function handleSubmit(e: FormEvent<HTMLFormElement>) {
+        e.preventDefault();
+
+        // Validar
+        if (Object.values(searchFilters).some(value => value === '')) {
+            console.log("Todos los campos son obligatorios");
+            return;
+        }
+
+        // Consultar las recetas
+        searchRecipes(searchFilters);
     }
 
     return (
@@ -48,6 +62,7 @@ function Header() {
                 {isHome && (
                     <form
                         className="md:w-1/2 2xl:w-1/3 bg-orange-400 my-32 p-10 rounded-lg shadow space-y-6"
+                        onSubmit={handleSubmit}
                     >
                         <div className="space-y-4">
                             <label htmlFor="ingredient"
