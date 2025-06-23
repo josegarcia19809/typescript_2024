@@ -4,19 +4,11 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: Agregando los Favoritos
+TS React. Bebidas y Recetas Router DOM: Mostrando de forma condicional el texto Agregar / Eliminar Favoritos y Consumir Estado de otra Slice
 
 
-06:08
-
-02:26
-
-04:05
-
-07:43
-Mostrando de forma condicional el texto Agregar / Eliminar Favoritos
 03:40
-Consumir Estado de otra Slice
+
 05:39
 Agregar Favoritos a LocalStorage
 04:05
