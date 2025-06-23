@@ -4,13 +4,13 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: Creando los Botones para Cerrar Modal y Añadir a Favoritos
+TS React. Bebidas y Recetas Router DOM: Creando un Slice para favoritos
 
 
 06:08
 
 02:26
-Creando un Slice para favoritos
+
 04:05
 Agregando los Favoritos
 07:43
