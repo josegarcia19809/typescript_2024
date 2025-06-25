@@ -1,6 +1,7 @@
 import {Outlet} from "react-router-dom";
 import Header from "../components/Header.tsx";
 import Modal from "../components/Modal.tsx";
+import Notification from "../components/Notification.tsx";
 import {useAppStore} from "../stores/useAppStore.ts";
 import {useEffect} from "react";
 
@@ -17,6 +18,7 @@ function Layout() {
                 <Outlet/>
             </main>
             <Modal/>
+            <Notification/>
         </>
     );
 }
