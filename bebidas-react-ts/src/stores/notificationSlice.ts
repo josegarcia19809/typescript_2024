@@ -1,5 +1,4 @@
 import {StateCreator} from "zustand";
-import {RecipesSlicesType} from "./recipeSlice.ts";
 import {FavoritesSliceType} from "./favoritesSlice.ts";
 
 type Notification = {

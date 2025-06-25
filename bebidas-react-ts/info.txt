@@ -4,13 +4,5 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: Mostrando la notificación para la validación en Header
+TS React. Bebidas y Recetas Router DOM: Performance en tus apps con React Router DOM y Build
 
-Llamando el Slice de Notificación para mostrarla
-
-
-02:56
-SOLUCIÓN RETO 07
-01:34
-Performance en tus apps con React Router DOM y Build
-05:03
