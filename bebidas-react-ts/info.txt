@@ -4,9 +4,9 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: Primeros pasos con la página de favoritos
+TS React. Bebidas y Recetas Router DOM: Creando un Slice para Notificaciones
 
-Creando un Slice para Notificaciones
+
 03:02
 Conectando la Notificación con el Slice
 04:19
