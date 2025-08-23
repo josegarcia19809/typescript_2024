@@ -4,5 +4,25 @@ Buscador de Recetas: Este proyecto incluye múltiples páginas; se estará reali
 
 PROYECTO - Buscador de Bebidas y Recetas con React Router DOM
 
-TS React. Bebidas y Recetas Router DOM: Performance en tus apps con React Router DOM y Build
+TS React. Bebidas y Recetas, agregando IA:
 
+Creando la vista y Ruta para las nuevas funciones
+03:49
+Creando el slice de IA
+02:59
+Añadiendo validación al formulario
+05:46
+Comunicando el Componente con el Slice
+02:35
+Creando un API Key e instalando dependencias para interacturar con la IA
+06:08
+Creando un Servicio para enviar las peticiones
+05:09
+Enviando peticiones hacia la IA y leyendo las respuestas
+05:29
+Mostrando los resultados en pantalla
+04:09
+Últimos ajustes al proyecto
+10:07
+Añadir comportamiento a la IA
+05:23
