@@ -1,10 +1,13 @@
+// 🎶 Bienvenido al mundo encantado de las canciones (strings)
 const cancion: string = "Bohemian Rhapsody";
 const artista: string = "Queen";
 
-// Quiero saber cuántas letras tiene el nombre de la canción
+console.log("🎤 Canción:", cancion);
+console.log("🎸 Artista:", artista);
 
+// 🔠 ¿Cuántas letras tiene el nombre de la canción?
 console.log("Número de letras", cancion.length);
-console.log(`Número de letras: ${cancion.length}`);
+console.log(`📏 La canción "${cancion}" tiene ${cancion.length} caracteres.`);
 
 const letraCancion: string = `
 Is this the real life? Is this just fantasy?
@@ -21,3 +24,10 @@ const letraAbreviada =
         letraCancion.slice(0, 50) + "..." :
         letraCancion;
 console.log(letraAbreviada);
+
+
+// 🔤 Cambiando el estilo del texto
+console.log("--------------------------------------------------");
+console.log("🔡 Original:", cancion);
+console.log("🔠 En MAYÚSCULAS:", cancion.toUpperCase());
+console.log("🔡 en minúsculas:", cancion.toLowerCase());
