@@ -1,16 +1,19 @@
-// Uso de variables let y const
- 
-console.log("------Uso de const------");
+// ------------------------------USO DE CONST------------------------------
+console.log("⭐ ------------------ USO DE CONST ------------------ ⭐");
 
-const personaje: string = "Mario Bross";
-console.log(`Personaje: ${personaje}`);
 
-let princesa: string = "Princesa Peach";
+const personaje: string = "Mario 🍄";
+console.log(`📝 Personaje elegido: ${personaje}`);
+
+// ------------------------------USO DE LET------------------------------
+console.log("🕹️ ------------------ USO DE LET ------------------ 🕹️");
+
+let princesa: string = "Peach 👸";
 console.log(`${princesa}`);
 
 console.log("-".repeat(50));
 
-princesa = "Fionna";
+princesa = "Fionna 💚";
 console.log(`${princesa}`);
 
 // Declarar 2 variables
