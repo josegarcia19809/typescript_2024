@@ -13,9 +13,9 @@ const receta: {
     nombre: "Galletas de avena",
     porciones: 4,
     ingredientes: [
-        { nombre: "Avena", gramos: 200 },
-        { nombre: "Mantequilla", gramos: 100 },
-        { nombre: "Azúcar", gramos: 80 },
+        {nombre: "Avena", gramos: 200},
+        {nombre: "Mantequilla", gramos: 100},
+        {nombre: "Azúcar", gramos: 80},
     ],
 };
 
@@ -30,7 +30,7 @@ console.log(receta.ingredientes);
 // Calcula gramos totales
 let totalGramos = 0
 
-for (let i = 0; i < receta.ingredientes.length; i++){
+for (let i = 0; i < receta.ingredientes.length; i++) {
     totalGramos += receta.ingredientes[i].gramos;
 }
 

@@ -11,9 +11,9 @@ const ticket: {
     total(): number;
 } = {
     items: [
-        { nombre: "Leche", cantidad: 2, precio: 23.5 },
-        { nombre: "Pan", cantidad: 1, precio: 18.0 },
-        { nombre: "Huevos", cantidad: 1, precio: 45.0 },
+        {nombre: "Leche", cantidad: 2, precio: 23.5},
+        {nombre: "Pan", cantidad: 1, precio: 18.0},
+        {nombre: "Huevos", cantidad: 1, precio: 45.0},
     ],
     total() {
         let totalTicket = 0;

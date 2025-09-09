@@ -13,7 +13,7 @@ const envio: {
 } = {
     guia: "MX778899",
     pesoKg: 3.2,
-    destino: { ciudad: "Guadalajara", cp: "44100" },
+    destino: {ciudad: "Guadalajara", cp: "44100"},
     entregado: false,
 };
 
