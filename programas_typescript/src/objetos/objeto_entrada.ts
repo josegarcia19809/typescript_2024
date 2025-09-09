@@ -7,17 +7,17 @@ const entrada: {
     precio: number,
     disponible: boolean
 } =
-{
-    evento: "Coldplay en México",
-    precio: 1800,
-    disponible: true
-}
+    {
+        evento: "Coldplay en México",
+        precio: 1800,
+        disponible: true
+    }
 
 console.log(entrada);
 
 // Verifica si aún está disponible
 console.log(
-    entrada.disponible 
+    entrada.disponible
         ? `La entrada para ${entrada.evento} cuesta $${entrada.precio}`
         : `Entradas agotadas para evento ${entrada.evento}`
 );
