@@ -1,16 +1,16 @@
-cantante
+boleto
 
-nombre: Shakira
-genero: pop
-edad: 47
+pelicula
+sala
+asiento, ejemplo B12
 
-// Muestra un mensaje con su nombre y género musical
+// Muestra un mensaje con los datos del boleto
 
 
-jugador
+bicicleta
 
-nombre: Messi
-posición: Delantero
-goles: 820
+id: ejemplo BICI-101
+color
+precioHora
 
-// Incrementa en 1 el número de goles y mostrar sus datos
+// Calcula el costo de rentarla por 4 horas
