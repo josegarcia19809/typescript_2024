@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 
-import "./objetos/objeto_receta.ts";
+import "./objetos/objeto_ticket.ts";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

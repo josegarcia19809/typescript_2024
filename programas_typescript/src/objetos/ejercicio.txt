@@ -1,10 +1,10 @@
-boleto
+libro
 
-pelicula
-sala
-asiento, ejemplo B12
+titulo
+autor
+paginas
 
-// Muestra un mensaje con los datos del boleto
+// Muestra titulo y autor en formato "Titulo - Autor"
 
 
 bicicleta
