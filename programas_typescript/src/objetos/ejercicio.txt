@@ -1,16 +1,1 @@
-libro
-
-titulo
-autor
-paginas
-
-// Muestra titulo y autor en formato "Titulo - Autor"
-
-
-bicicleta
-
-id: ejemplo BICI-101
-color
-precioHora
-
-// Calcula el costo de rentarla por 4 horas
+TS: objeto literal. Paciente con signos vitales
