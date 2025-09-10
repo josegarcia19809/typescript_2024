@@ -1,1 +1,1 @@
-TS: objeto literal. Paciente con signos vitales
+TS: objeto literal. Partida de videojuego con estado
