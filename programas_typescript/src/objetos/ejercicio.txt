@@ -1,1 +1,1 @@
-TS: objeto literal. Pedido con cálculo de envío
+TS: Arreglos. 503
