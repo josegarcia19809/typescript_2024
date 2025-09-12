@@ -9,7 +9,7 @@ const canciones: string[] = [
 
 // Mostrar cada canción numerada
 canciones.forEach((cancion, index) => {
-    console.log(`${index+1}. ${cancion}`);
+    console.log(`${index + 1}. ${cancion}`);
 });
 
 
