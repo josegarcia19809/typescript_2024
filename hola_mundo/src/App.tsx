@@ -1,12 +1,13 @@
-function App() {
+// App.tsx
+
+import AplicacionCarritoTabla from "./components/AplicacionCarritoTabla.tsx";
+
+const App = () => {
     return (
-        <div>
-            <h1>Usando REACT</h1>
-            <h2>Presentando JSX</h2>
-            <img src='/img/heroe.jpg' alt=""/>
+        <>
+            <AplicacionCarritoTabla/>
+        </>
+    );
+};
 
-        </div>
-    )
-}
-
-export default App
+export default App;
