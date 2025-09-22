@@ -1,11 +1,12 @@
 // App.tsx
 
-import AplicacionCarritoTabla from "./components/AplicacionCarritoTabla.tsx";
+
+import PaginaSimple from "./components/PaginaSimple.tsx";
 
 const App = () => {
     return (
         <>
-            <AplicacionCarritoTabla/>
+            <PaginaSimple/>
         </>
     );
 };
