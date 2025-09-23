@@ -8,7 +8,7 @@ const Despedida = () => {
         white: '#FFFFFF',
         black: '#000000',
     };
-    
+
     // Estilos para el pie de página (Footer)
     const footerStyle: CSSProperties = {
         backgroundColor: colors.darkSalmon,
