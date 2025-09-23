@@ -1,12 +1,12 @@
 // App.tsx
 
+import AppEscolar from "./components/AplicacionEscolar/AppEscolar.tsx";
 
-import PaginaSimple from "./components/PaginaSimple.tsx";
 
 const App = () => {
     return (
         <>
-            <PaginaSimple/>
+            <AppEscolar/>
         </>
     );
 };
