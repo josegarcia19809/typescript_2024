@@ -1,12 +1,11 @@
 // App.tsx
 
-import AppEscolar from "./components/AplicacionEscolar/AppEscolar.tsx";
-
+import AppRestaurante from "./components/AplicacionRestaurante/AppRestaurante.tsx";
 
 const App = () => {
     return (
         <>
-            <AppEscolar/>
+            <AppRestaurante/>
         </>
     );
 };
