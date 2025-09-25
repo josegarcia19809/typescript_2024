@@ -1,11 +1,12 @@
 // App.tsx
 
-import AppAutomovil from "./components/AplicacionAutomovil/AppAutomovil.tsx";
+import AppTaqueria from "./components/AplicacionTaqueria/AppTaqueria.tsx";
+
 
 const App = () => {
     return (
         <>
-           <AppAutomovil/>
+            <AppTaqueria/>
         </>
     );
 };
