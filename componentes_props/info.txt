@@ -1,1 +1,1 @@
-TS React: Componentes con props. Aplicación Taquería
+TS React: Componentes con props. Aplicación Cine

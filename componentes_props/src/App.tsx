@@ -1,12 +1,11 @@
 // App.tsx
 
-import AppTaqueria from "./components/AplicacionTaqueria/AppTaqueria.tsx";
-
+import AppCine from "./components/AplicacionCine/AppCine";
 
 const App = () => {
     return (
         <>
-            <AppTaqueria/>
+            <AppCine/>
         </>
     );
 };
