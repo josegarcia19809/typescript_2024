@@ -4,7 +4,7 @@ type CarritoItemProps = {
     producto: string;
 };
 
-const CarritoItem = ({ precio, comprado, producto }: CarritoItemProps) => {
+const CarritoItem = ({precio, comprado, producto}: CarritoItemProps) => {
     return (
         <div
             style={{

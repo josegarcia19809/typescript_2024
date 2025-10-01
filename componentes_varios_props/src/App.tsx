@@ -1,6 +1,8 @@
 // App.tsx
 
-import AppCarrito from "./components/AplicacionCarritoCompras/AppCarrito";
+
+
+import AppCarrito from "./components/AplicacionCarritoCompras/AppCarrito.tsx";
 
 const App = () => {
     return (
