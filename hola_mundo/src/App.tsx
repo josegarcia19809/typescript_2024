@@ -1,11 +1,12 @@
 // App.tsx
 
-import AppZoologico from "./components/AplicacionZoologico/AppZoologico";
+
+import CarritoCompras from "./components/ShoppingCart/CarritoCompras.tsx";
 
 const App = () => {
     return (
         <>
-            <AppZoologico/>
+            <CarritoCompras/>
         </>
     );
 };
