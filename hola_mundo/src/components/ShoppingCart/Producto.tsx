@@ -1,4 +1,5 @@
 import "./Producto.css"
+import {useState} from "react";
 
 type ProductoProps = {
     nombre: string;
@@ -6,13 +7,15 @@ type ProductoProps = {
 }
 
 const Producto = ({nombre, cantidad}: ProductoProps) => {
-
+    const [contador, setContador] = useState(cantidad);
     const manejarSumar = () => {
-        console.log("Sumar elemento: " + nombre);
+        setContador(contador + 1);
     };
 
     const manejarRestar = () => {
-        console.log("Restar elemento: " + nombre);
+        if (contador > 0) {
+            setContador(contador - 1);
+        }
     };
     return (
         <>
@@ -21,7 +24,7 @@ const Producto = ({nombre, cantidad}: ProductoProps) => {
                     {nombre}
                 </span>
                 <button onClick={manejarSumar}>+1</button>
-                <span>{cantidad}</span>
+                <span>{contador}</span>
                 <button onClick={manejarRestar}>-1</button>
             </section>
         </>
