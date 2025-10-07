@@ -1,1 +1,1 @@
-TS React: Componentes con props. Aplicación Cine
+TS React: Recorrido de arreglos con map. uso de listas y tablas
