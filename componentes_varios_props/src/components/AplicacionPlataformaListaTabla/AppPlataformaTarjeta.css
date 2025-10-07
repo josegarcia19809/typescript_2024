@@ -1,0 +1,70 @@
+.contenedor-tarjetas {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #1c1c2b, #3b4371);
+  color: #fff;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.grid-peliculas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+.tarjeta-pelicula {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 260px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta-pelicula:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.imagen-pelicula {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.info-pelicula {
+  padding: 15px;
+}
+
+.info-pelicula h2 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.info-pelicula p {
+  color: #ffd580;
+  margin-bottom: 10px;
+}
+
+.btn-ver {
+  background-color: #ffcc70;
+  border: none;
+  color: #222;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-ver:hover {
+  background-color: #ffb347;
+}

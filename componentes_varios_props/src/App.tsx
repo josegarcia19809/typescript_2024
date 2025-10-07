@@ -1,13 +1,11 @@
 // App.tsx
 
-
-
-import AppCarrito from "./components/AplicacionCarritoCompras/AppCarrito.tsx";
+import AppPlataformaTabla from "./components/AplicacionPlataformaListaTabla/AppPlataformaTabla";
 
 const App = () => {
     return (
         <>
-            <AppCarrito/>
+            <AppPlataformaTabla/>
         </>
     );
 };

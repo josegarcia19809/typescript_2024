@@ -1,0 +1,45 @@
+.contenedor-menu {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f7f7;
+  padding: 40px;
+  border-radius: 20px;
+  width: 60%;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.tabla-menu {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tabla-menu th {
+  background-color: #ffb347;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px;
+}
+
+.tabla-menu td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-menu tr:hover {
+  background-color: #fff4e3;
+  transition: background-color 0.3s ease;
+}
+
+.tabla-menu td:last-child {
+  font-weight: bold;
+  color: #27ae60;
+}

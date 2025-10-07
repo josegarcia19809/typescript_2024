@@ -1,0 +1,81 @@
+.contenedor-tabla {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1c1c2b, #3b4371);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #ffcc70;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.tabla-peliculas {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.tabla-peliculas th {
+  background-color: #ffb347;
+  color: #222;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.tabla-peliculas td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.tabla-peliculas tr:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  transition: background-color 0.3s ease;
+}
+
+.tabla-peliculas td:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* 🎬 Botón “Ver” */
+.btn-ver {
+  background-color: #ffcc70;
+  border: none;
+  color: #222;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-ver:hover {
+  background-color: #ffb347;
+  transform: scale(1.05);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-ver:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 700px) {
+  .tabla-peliculas {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .btn-ver {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+}
