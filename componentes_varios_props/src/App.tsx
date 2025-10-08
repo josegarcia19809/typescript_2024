@@ -1,12 +1,13 @@
 // App.tsx
 
 
-import AppMenuTabla from "./components/AplicacionMenuListaTabla/AppMenuTabla.tsx";
+import AppPlataformaTarjeta
+    from "./components/AplicacionPlataformaListaTabla/AppPlataformaTarjeta.tsx";
 
 const App = () => {
     return (
         <>
-            <AppMenuTabla/>
+            <AppPlataformaTarjeta/>
         </>
     );
 };

@@ -1,1 +1,1 @@
-TS React: Recorrido de arreglos con map. Menú restaurante
+TS React: Recorrido de arreglos con map. Plataforma de streaming
