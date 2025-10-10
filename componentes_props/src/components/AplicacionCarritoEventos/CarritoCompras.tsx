@@ -6,10 +6,10 @@ type ProductoM = {
 };
 
 const productos: ProductoM[] = [
-    { nombre: "Nintendo Switch 2", cantidad: 1 },
-    { nombre: "Pro Controller", cantidad: 2 },
-    { nombre: "Super Smash", cantidad: 4 },
-    { nombre: "Super Mario", cantidad: 3 },
+    {nombre: "Nintendo Switch 2", cantidad: 1},
+    {nombre: "Pro Controller", cantidad: 2},
+    {nombre: "Super Smash", cantidad: 4},
+    {nombre: "Super Mario", cantidad: 3},
 ];
 
 const CarritoCompras = () => {

@@ -1,11 +1,11 @@
 // App.tsx
 
-import Biblioteca from "./components/AplicacionBibliotecaDigital/Biblioteca";
+import CarritoCompras from "./components/AplicacionCarritoEventos/CarritoCompras.tsx";
 
 const App = () => {
     return (
         <>
-            <Biblioteca/>
+            <CarritoCompras/>
         </>
     );
 };

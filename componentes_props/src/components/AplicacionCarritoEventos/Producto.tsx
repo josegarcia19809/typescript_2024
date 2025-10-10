@@ -5,14 +5,14 @@ type ProductoProps = {
     cantidad: number;
 };
 
-const Producto = ({ nombre, cantidad }: ProductoProps) => {
-    
+const Producto = ({nombre, cantidad}: ProductoProps) => {
+
     const manejarSumar = () => {
-        console.log("Sumar elementos: "+ nombre);
+        console.log("Sumar elementos: " + nombre);
     }
 
     const manejarRestar = () => {
-        console.log("Restar elementos: "+ nombre);
+        console.log("Restar elementos: " + nombre);
     }
 
     return (
