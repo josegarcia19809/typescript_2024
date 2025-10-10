@@ -1,49 +1,49 @@
 .estudiante {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #eef2ff;
-  border-radius: 10px;
-  padding: 10px 15px;
-  margin: 10px 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eef2ff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .estudiante-nombre {
-  font-weight: 600;
-  color: #1e293b;
+    font-weight: 600;
+    color: #1e293b;
 }
 
 .botones {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 /* Estilo base para todos los botones */
 .btn {
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 6px 12px;
-  cursor: pointer;
-  font-weight: 500;
-  transition: transform 0.2s, opacity 0.2s;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: transform 0.2s, opacity 0.2s;
 }
 
 .btn:hover {
-  transform: scale(1.05);
-  opacity: 0.9;
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 /* 🎨 Colores personalizados */
 .btn-participo {
-  background-color: #22c55e; /* verde */
+    background-color: #22c55e; /* verde */
 }
 
 .btn-asistio {
-  background-color: #f59e0b; /* amarillo/naranja */
+    background-color: #f59e0b; /* amarillo/naranja */
 }
 
 .btn-tarea {
-  background-color: #3b82f6; /* azul */
+    background-color: #3b82f6; /* azul */
 }

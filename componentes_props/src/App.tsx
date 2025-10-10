@@ -1,11 +1,12 @@
 // App.tsx
 
-import CarritoCompras from "./components/AplicacionCarritoEventos/CarritoCompras.tsx";
+import GrupoEstudiantes
+    from "./components/AplicacionEstudiantesEventos/GrupoEstudiantes.tsx";
 
 const App = () => {
     return (
         <>
-            <CarritoCompras/>
+            <GrupoEstudiantes/>
         </>
     );
 };
