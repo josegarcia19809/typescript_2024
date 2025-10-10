@@ -1,11 +1,11 @@
 // App.tsx
 
-import AppCine from "./components/AplicacionCine/AppCine";
+import Biblioteca from "./components/AplicacionBibliotecaDigital/Biblioteca";
 
 const App = () => {
     return (
         <>
-            <AppCine/>
+            <Biblioteca/>
         </>
     );
 };

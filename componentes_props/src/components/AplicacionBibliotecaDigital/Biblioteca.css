@@ -1,0 +1,30 @@
+/* Fondo general oscuro */
+.biblioteca-contenedor {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #1e293b; /* gris azulado oscuro */
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f1f5f9; /* texto claro */
+}
+
+/* Título principal */
+.biblioteca-titulo {
+  text-align: center;
+  color: #f8fafc;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  background-color: #334155; /* tono más claro que el fondo */
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+/* Contenedor de los libros */
+.lista-libros {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
