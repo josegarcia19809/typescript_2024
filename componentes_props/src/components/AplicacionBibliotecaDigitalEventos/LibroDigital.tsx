@@ -7,8 +7,8 @@ type LibroDigitalProps = {
 
 const LibroDigital = ({ titulo, autor }: LibroDigitalProps) => {
 
-    const manejarLeido = () => {
-        console.log(`Libro leído: ${titulo} - ${autor}`);    
+    const marcarLeido = () => {
+        console.log(`Libro leído: ${titulo} - ${autor}`);
     }
 
     const reservar = () => {
@@ -26,9 +26,13 @@ const LibroDigital = ({ titulo, autor }: LibroDigitalProps) => {
                 {titulo} - {autor}
             </span>
             <div className="libro-botones">
-                <button onClick={manejarLeido} className="btn btn-leido">📖 Leído</button>
-                <button onClick={reservar} className="btn btn-reservar">📚 Reservar</button>
-                <button onClick={recomendar} className="btn btn-recomendar">🌟 Recomendar</button>
+                <button onClick={marcarLeido}
+                        className="btn btn-leido">📖 Leído</button>
+                <button onClick={reservar}
+                        className="btn btn-reservar">📚 Reservar</button>
+                <button onClick={recomendar}
+                        className="btn btn-recomendar">🌟 Recomendar
+                </button>
             </div>
         </section>
     );

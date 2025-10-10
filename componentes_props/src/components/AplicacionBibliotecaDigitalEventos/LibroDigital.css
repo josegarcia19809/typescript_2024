@@ -1,0 +1,59 @@
+/* Contenedor principal */
+.libro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #334155; /* gris oscuro intermedio */
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 12px 0;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.libro:hover {
+    transform: scale(1.02);
+    background-color: #475569; /* un poco más claro al pasar el mouse */
+}
+
+/* Información del libro */
+.libro-info {
+    font-weight: 600;
+    color: #e2e8f0; /* gris claro */
+    font-size: 1rem;
+}
+
+/* Contenedor de botones */
+.libro-botones {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilos base para los botones */
+.btn {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Colores específicos para cada acción */
+.btn-leido {
+    background-color: #16a34a; /* verde oscuro */
+}
+
+.btn-reservar {
+    background-color: #2563eb; /* azul */
+}
+
+.btn-recomendar {
+    background-color: #eab308; /* amarillo cálido */
+}

@@ -1,12 +1,11 @@
 // App.tsx
 
-import GrupoEstudiantes
-    from "./components/AplicacionEstudiantesEventos/GrupoEstudiantes.tsx";
+import Biblioteca from "./components/AplicacionBibliotecaDigitalEventos/Biblioteca.tsx";
 
 const App = () => {
     return (
         <>
-            <GrupoEstudiantes/>
+            <Biblioteca/>
         </>
     );
 };
