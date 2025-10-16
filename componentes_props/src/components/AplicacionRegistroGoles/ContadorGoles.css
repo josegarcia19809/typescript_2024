@@ -1,0 +1,72 @@
+.card-jugador {
+    background: linear-gradient(145deg, #121212, #1e1e1e);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.2);
+    padding: 1.5rem;
+    width: 230px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-jugador:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 255, 136, 0.4);
+}
+
+.jugador-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #00ff88;
+    box-shadow: 0 0 10px #00ff88;
+}
+
+.jugador-nombre {
+    color: #00ff88;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    text-shadow: 0 0 5px #00ff88;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    background-color: #222;
+    color: #00ff88;
+    border: 1px solid #00ff88;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00ff88;
+    color: #000;
+}
+
+.btn.menos {
+    border-color: #ff4c4c;
+    color: #ff4c4c;
+}
+
+.btn.menos:hover {
+    background-color: #ff4c4c;
+    color: #fff;
+}
+
+.goles {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00ff88;
+    text-shadow: 0 0 8px #00ff88;
+}

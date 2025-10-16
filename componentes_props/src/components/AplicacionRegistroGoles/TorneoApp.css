@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background: radial-gradient(circle at center, #0a0a0a, #000);
+    font-family: 'Poppins', sans-serif;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.torneo-container {
+    padding: 2rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #00ff88;
+    color: #00ff88;
+}
+
+.grid-jugadores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}

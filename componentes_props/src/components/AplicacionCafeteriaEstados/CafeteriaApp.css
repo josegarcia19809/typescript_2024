@@ -1,0 +1,33 @@
+:root {
+    --color-fondo: #f8f3e7;
+    --color-cafe: #6f4e37;
+    --color-crema: #e0c097;
+}
+
+.cafeteria-fondo {
+    background-color: var(--color-fondo);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.cafeteria-titulo {
+    color: var(--color-cafe);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--color-crema);
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(111, 78, 55, 0.2);
+    text-align: center;
+}
+
+.cafeteria-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}

@@ -1,0 +1,67 @@
+:root {
+    --color-fondo: #f3e5ab;
+    --color-cafe: #6f4e37;
+    --color-crema: #d7b89c;
+    --color-boton: #a47148;
+    --color-hover: #8b5e3c;
+}
+
+.cafe-contenedor {
+    background-color: var(--color-fondo);
+    border: 2px solid var(--color-crema);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 230px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(111, 78, 55, 0.2);
+    font-family: "Poppins", sans-serif;
+    transition: transform 0.2s ease;
+}
+
+.cafe-contenedor:hover {
+    transform: scale(1.05);
+}
+
+.cafe-imagen {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.cafe-tipo {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--color-cafe);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.cafe-controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.btn-cafe {
+    background-color: var(--color-boton);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cafe:hover {
+    background-color: var(--color-hover);
+}
+
+.cafe-cantidad {
+    font-size: 1.1rem;
+    color: var(--color-cafe);
+    font-weight: 600;
+}

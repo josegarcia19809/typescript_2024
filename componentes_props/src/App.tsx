@@ -1,11 +1,11 @@
 // App.tsx
 
-import Biblioteca from "./components/AplicacionBibliotecaDigitalEventos/Biblioteca.tsx";
+import CafeteriaApp from "./components/AplicacionCafeteriaEstados/CafeteriaApp";
 
 const App = () => {
     return (
         <>
-            <Biblioteca/>
+            <CafeteriaApp />
         </>
     );
 };
