@@ -1,11 +1,11 @@
 // App.tsx
 
-import CafeteriaApp from "./components/AplicacionCafeteriaEstados/CafeteriaApp";
+import TorneoApp from "./components/AplicacionRegistroGoles/TorneoApp.tsx";
 
 const App = () => {
     return (
         <>
-            <CafeteriaApp />
+            <TorneoApp />
         </>
     );
 };

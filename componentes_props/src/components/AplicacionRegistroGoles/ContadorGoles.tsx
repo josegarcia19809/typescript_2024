@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import "./ContadorGoles.css";
 
 type JugadorProps = {
@@ -7,7 +7,7 @@ type JugadorProps = {
     foto: string;
 };
 
-const ContadorGoles = ({ nombre, golesIniciales, foto }: JugadorProps) => {
+const ContadorGoles = ({nombre, golesIniciales, foto}: JugadorProps) => {
     const [cantidad, setCantidad] = useState(golesIniciales);
 
     const manejarIncremento = () => setCantidad(cantidad + 1);
@@ -17,7 +17,7 @@ const ContadorGoles = ({ nombre, golesIniciales, foto }: JugadorProps) => {
 
     return (
         <div className="card-jugador">
-            <img src={foto} alt={nombre} className="jugador-foto" />
+            <img src={foto} alt={nombre} className="jugador-foto"/>
             <h2 className="jugador-nombre">{nombre}</h2>
             <div className="contador">
                 <button className="btn menos" onClick={manejarDecremento}>-1</button>
