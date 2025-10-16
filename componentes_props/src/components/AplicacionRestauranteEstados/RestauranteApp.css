@@ -2,52 +2,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-  --color-fondo: #fafafa;
-  --color-card: #ffffff;
-  --color-primario: #ff7b00;
-  --color-secundario: #00c896;
-  --color-texto: #333333;
-  --color-borde: #e0e0e0;
+    --color-fondo: #fafafa;
+    --color-card: #ffffff;
+    --color-primario: #ff7b00;
+    --color-secundario: #00c896;
+    --color-texto: #333333;
+    --color-borde: #e0e0e0;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
-  background-color: var(--color-fondo);
-  color: var(--color-texto);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
 }
 
 /* Fondo general */
 .restaurante-fondo {
-  text-align: center;
-  padding: 40px 20px;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 /* Título principal */
 .restaurante-titulo {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--color-primario);
-  margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-primario);
+    margin-bottom: 25px;
 }
 
 /* Contenedor de las tarjetas */
 .restaurante-lista {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 25px;
-  justify-items: center;
-  padding: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 25px;
+    justify-items: center;
+    padding: 0 10px;
 }
 
 /* Responsivo */
 @media (max-width: 600px) {
-  .restaurante-titulo {
-    font-size: 1.6rem;
-  }
+    .restaurante-titulo {
+        font-size: 1.6rem;
+    }
 }

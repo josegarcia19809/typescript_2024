@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import "./ContadorPedidos.css";
 
 type PedidoProps = {
@@ -7,7 +7,7 @@ type PedidoProps = {
     imagen: string;
 };
 
-const ContadorPedidos = ({ platillo, pedidosIniciales, imagen }: PedidoProps) => {
+const ContadorPedidos = ({platillo, pedidosIniciales, imagen}: PedidoProps) => {
     const [cantidad, setCantidad] = useState(pedidosIniciales);
 
     const manejadorIncremento = () => {
@@ -20,7 +20,7 @@ const ContadorPedidos = ({ platillo, pedidosIniciales, imagen }: PedidoProps) =>
 
     return (
         <section className="pedido-contenedor">
-            <img src={imagen} alt={platillo} className="pedido-imagen" />
+            <img src={imagen} alt={platillo} className="pedido-imagen"/>
             <span className="pedido-nombre">{platillo}</span>
             <div className="pedido-controles">
                 <button className="btn-pedido" onClick={manejadorIncremento}>
