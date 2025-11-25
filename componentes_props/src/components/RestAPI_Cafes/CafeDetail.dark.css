@@ -1,0 +1,108 @@
+/* ================================
+   🎨 TEMA OSCURO — DETALLE DE CAFÉ
+   Tarjeta pequeña con animación
+================================ */
+
+/* Fondo general */
+.cafe-detail-container {
+    min-height: 100vh;
+    padding: 32px 16px;
+    display: flex;
+    justify-content: center;
+    background: #1a1816;
+    color: #e8e6e3;
+}
+
+/* Tarjeta pequeña */
+.cafe-detail-card {
+    width: 360px;
+    background: #25211f;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* Animación */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cafe-detail-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+
+/* Nombre */
+.cafe-detail-title {
+    font-size: 1.4rem;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+/* Tipo (badge) */
+.cafe-detail-type {
+    display: inline-block;
+    background: #3a332e;
+    color: #f3f1ee;
+    padding: 4px 10px;
+    font-size: 0.85rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Precio */
+.cafe-detail-price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #d2b48c; /* tono café */
+    margin-bottom: 14px;
+}
+
+/* Botones */
+.cafe-detail-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.cafe-detail-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.cafe-detail-btn:hover {
+    transform: scale(1.04);
+    opacity: 0.9;
+}
+
+/* Colores específicos */
+.cafe-detail-btn-edit {
+    background: #d4a95f;
+    color: #1a1816;
+}
+
+.cafe-detail-btn-delete {
+    background: #d9534f;
+    color: white;
+}
+
+.cafe-detail-btn-back {
+    background: #3a3a3a;
+    color: #f3f3f3;
+}

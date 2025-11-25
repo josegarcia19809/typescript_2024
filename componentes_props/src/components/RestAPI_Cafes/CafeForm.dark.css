@@ -1,0 +1,132 @@
+/* Tema oscuro compacto para formulario de cafés */
+:root{
+    --bg: #0f1115;
+    --card: #17181b;
+    --muted: #9aa4b2;
+    --text: #e6eef6;
+    --accent: #ff6b35;
+    --success: #10b981;
+    --danger: #ef4444;
+    --glass: rgba(255,255,255,0.03);
+    --radius: 12px;
+    --transition: 220ms cubic-bezier(.2,.8,.2,1);
+}
+
+/* Contenedor centrado */
+.cafe-form-container{
+    min-height: 60vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 1.25rem;
+    background: var(--bg);
+    color: var(--text);
+}
+
+/* Tarjeta del formulario */
+.cafe-form-card{
+    width: 100%;
+    max-width: 520px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border: 1px solid var(--glass);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+    animation: cardAppear .36s ease forwards;
+}
+
+/* Título */
+.cafe-form-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
+/* Mensajes de error generales */
+.form-errors {
+    margin-bottom: 1rem;
+    padding: 10px 12px;
+    background: rgba(255,65,65,0.06);
+    color: #ffc6c6;
+    border-radius: 8px;
+    border: 1px solid rgba(255,65,65,0.08);
+}
+
+/* Campos */
+.form-row { margin-bottom: 0.85rem; }
+.cafe-label {
+    display:block;
+    margin-bottom: 6px;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+.cafe-input {
+    width:100%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.04);
+    background: rgba(0,0,0,0.25);
+    color: var(--text);
+    font-size: 0.95rem;
+    transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+    outline: none;
+}
+.cafe-input::placeholder { color: rgba(255,255,255,0.28); }
+
+/* Focus accesible */
+.cafe-input:focus {
+    box-shadow: 0 8px 28px rgba(255,107,53,0.06);
+    border-color: rgba(255,107,53,0.16);
+    transform: translateY(-1px);
+}
+
+/* Botones */
+.form-actions {
+    display:flex;
+    gap: 0.6rem;
+    margin-top: 0.75rem;
+}
+.btn {
+    flex:1;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: transform var(--transition), box-shadow var(--transition), opacity var(--transition);
+}
+.btn:disabled { opacity: 0.65; cursor: not-allowed; transform: none; box-shadow: none; }
+
+/* Botones específicos */
+.btn-primary {
+    background: linear-gradient(90deg, rgba(255,107,53,1), rgba(255,85,40,1));
+    color: white;
+    box-shadow: 0 8px 20px rgba(255,107,53,0.12);
+}
+.btn-primary:hover { transform: translateY(-3px); box-shadow: 0 14px 36px rgba(255,107,53,0.16); }
+
+.btn-secondary {
+    background: rgba(255,255,255,0.03);
+    color: var(--text);
+    border: 1px solid rgba(255,255,255,0.04);
+}
+.btn-secondary:hover { transform: translateY(-2px); }
+
+/* Campo de errores por campo */
+.field-error {
+    margin-top: 6px;
+    font-size: 0.85rem;
+    color: #ffb4b4;
+}
+
+/* Animación de entrada */
+@keyframes cardAppear {
+    from { opacity: 0; transform: translateY(10px) scale(.995); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Responsive */
+@media (max-width:420px){
+    .cafe-form-card { padding: 16px; border-radius: 12px; }
+    .cafe-form-title { font-size: 1.1rem; }
+}

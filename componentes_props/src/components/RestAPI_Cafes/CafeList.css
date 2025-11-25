@@ -1,0 +1,210 @@
+/* --- Fuentes (opcional) ---
+   Pega en public/index.html:
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+*/
+:root{
+    --bg: #0b1020;               /* fondo general */
+    --card-bg: rgba(255,255,255,0.04); /* tarjeta (glass) */
+    --glass-border: rgba(255,255,255,0.06);
+    --muted: #9aa4b2;
+    --accent: linear-gradient(135deg,#ff8a65 0%, #ff3d00 100%); /* naranja moderno */
+    --accent-solid: #ff6b35;
+    --success: #4ade80;
+    --danger: #fb7185;
+    --glass-blur: 8px;
+    --radius: 12px;
+    --transition: 300ms cubic-bezier(.2,.8,.2,1);
+}
+
+/* Reset básico */
+body {
+    background: var(--bg);
+    color: #e6eef6;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Contenedor */
+.cafe-list-container {
+    padding: 1.25rem;
+    max-width: 1100px;
+    margin: 1.5rem auto;
+}
+
+/* Header */
+.cafe-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.cafe-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+/* Nuevo (botón) */
+.cafe-btn-new {
+    padding: 0.55rem 0.95rem;
+    border-radius: 10px;
+    background: var(--accent);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 6px 18px rgba(255,107,53,0.12);
+    transition: transform var(--transition), box-shadow var(--transition);
+    transform-origin: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.cafe-btn-new:hover { transform: translateY(-4px) scale(1.02); box-shadow: 0 12px 30px rgba(255,107,53,0.18); }
+.cafe-btn-new:active { transform: translateY(-1px) scale(0.995); }
+
+/* Grid responsive */
+.cafe-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+@media (min-width: 768px) { .cafe-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1200px) { .cafe-grid { grid-template-columns: repeat(3, 1fr); } }
+
+/* Card moderno oscuro (glassmorphism) */
+.cafe-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.01) 100%);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border-radius: var(--radius);
+    padding: 0.85rem;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(2,6,23,0.6);
+    transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    opacity: 0;
+    transform: translateY(10px) scale(0.995);
+    animation: card-fade-in 420ms ease forwards;
+}
+
+/* Slight stagger - use inline style in map if you want different delays */
+/* Hover lift */
+.cafe-card:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 20px 40px rgba(2,6,23,0.75);
+    border-color: rgba(255,107,53,0.18);
+}
+
+/* Imagen con zoom suave */
+.cafe-img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 450ms cubic-bezier(.2,.8,.2,1), filter 350ms;
+    will-change: transform;
+    display: block;
+}
+.cafe-card:hover .cafe-img { transform: scale(1.06) translateY(-4px); filter: saturate(1.07) contrast(1.02); }
+
+/* Info */
+.cafe-top {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.6rem;
+}
+.cafe-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+.cafe-type {
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+/* Precio con badge */
+.cafe-price {
+    font-weight: 700;
+    background: linear-gradient(90deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.95rem;
+    align-self: flex-start;
+}
+
+/* Actions (botones) */
+.cafe-actions {
+    margin-top: auto;
+    display:flex;
+    gap: 0.5rem;
+}
+.cafe-btn {
+    padding: 0.45rem 0.8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: transform var(--transition), box-shadow var(--transition), opacity var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+/* Ver */
+.cafe-btn-view {
+    background: rgba(255,255,255,0.03);
+    color: var(--muted);
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,0.02);
+}
+.cafe-btn-view:hover { transform: translateY(-3px); color: #fff; }
+
+/* Edit */
+.cafe-btn-edit {
+    background: var(--accent-solid);
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(255,107,53,0.12);
+}
+.cafe-btn-edit:hover { transform: translateY(-3px) scale(1.01); }
+
+/* small badge style for type */
+.cafe-badge {
+    padding: 0.18rem 0.45rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    background: rgba(255,255,255,0.03);
+    color: var(--muted);
+    border: 1px solid rgba(255,255,255,0.02);
+}
+
+/* Animations */
+@keyframes card-fade-in {
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* subtle float animation for CTA */
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+    100% { transform: translateY(0); }
+}
+.cafe-btn-new .float-cta { animation: float 3s ease-in-out infinite; }
+
+/* focus accessibility */
+.cafe-btn:focus { outline: 3px solid rgba(255,107,53,0.14); outline-offset: 2px; }
+
+/* small responsive text adjustments */
+@media (max-width:420px) {
+    .cafe-img { height: 140px; }
+    .cafe-title { font-size: 1.2rem; }
+}
