@@ -1,0 +1,34 @@
+Pruebas automáticas - Unit testing: Configuración Vitest
+
+
+
+
+06:04
+Mis primeras pruebas automáticas
+11:47
+Agrupar pruebas similares
+07:37
+Pruebas sobre componentes de React
+10:58
+Buscar elementos en el componente renderizado
+09:48
+Evaluar "snapshots"
+08:41
+Pruebas en el componente ItemCounter
+08:05
+Disparar eventos
+10:06
+Comprobar estilos
+05:40
+Pruebas en "FirstStepsApp"
+04:34
+Componentes fictícios - Mock Components
+07:57
+Esperar argumentos específicos
+10:11
+Índice de cobertura
+06:07
+Código fuente
+00:04
+Pruebas automáticas - Unit testing
+10 preguntas
