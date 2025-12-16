@@ -1,10 +1,10 @@
-Pruebas automáticas - Unit testing: Comprobar estilos
+Pruebas automáticas - Unit testing: Pruebas en "FirstStepsApp"
 
 
 10:06
 
 05:40
-Pruebas en "FirstStepsApp"
+
 04:34
 Componentes fictícios - Mock Components
 07:57
