@@ -1,8 +1,8 @@
-Pruebas automáticas - Unit testing: Disparar eventos
+Pruebas automáticas - Unit testing: Comprobar estilos
 
 
 10:06
-Comprobar estilos
+
 05:40
 Pruebas en "FirstStepsApp"
 04:34
