@@ -24,7 +24,7 @@ export const MyAwesomeApp = () => {
       <h1 data-testid="first-name-title"> {firstName} </h1>
       <h3> {lastName} </h3>
 
-      <p>{favoriteGames.join(', ')}</p>
+      <p className="mi-clase-favorit">{favoriteGames.join(', ')}</p>
       <p>{2 + 2}</p>
 
       <h1>{isActive ? 'Activo' : 'No activo'}</h1>

@@ -21,5 +21,10 @@ describe("MyAwesomeApp", () => {
 
         expect(h1?.innerHTML).toContain("Fernando");
     })
+
+    test("Should match snapshot", async () => {
+        const{container}=render(<MyAwesomeApp/>)
+        expect(container).toMatchSnapshot();
+    })
 })
 

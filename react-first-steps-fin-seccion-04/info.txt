@@ -1,8 +1,8 @@
-Pruebas automáticas - Unit testing: Buscar elementos en el componente renderizado
+Pruebas automáticas - Unit testing: Evaluar "snapshots"
 
 
 09:48
-Evaluar "snapshots"
+
 08:41
 Pruebas en el componente ItemCounter
 08:05
