@@ -1,6 +1,6 @@
-Pruebas automáticas - Unit testing: Pruebas en el componente ItemCounter
+Pruebas automáticas - Unit testing: Disparar eventos
 
-Disparar eventos
+
 10:06
 Comprobar estilos
 05:40
