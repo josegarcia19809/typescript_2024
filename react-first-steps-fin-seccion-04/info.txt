@@ -1,5 +1,3 @@
-Pruebas automáticas - Unit testing: Esperar argumentos específicos
+Pruebas automáticas - Unit testing: Índice de cobertura
 
 
-10:11
-Índice de cobertura
