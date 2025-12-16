@@ -1,18 +1,5 @@
-Pruebas automáticas - Unit testing: Pruebas en "FirstStepsApp"
+Pruebas automáticas - Unit testing: Componentes fictícios - Mock Components
 
-
-10:06
-
-05:40
-
-04:34
-Componentes fictícios - Mock Components
-07:57
 Esperar argumentos específicos
 10:11
 Índice de cobertura
-06:07
-Código fuente
-00:04
-Pruebas automáticas - Unit testing
-10 preguntas
