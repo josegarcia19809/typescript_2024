@@ -1,5 +1,5 @@
-Pruebas automáticas - Unit testing: Componentes fictícios - Mock Components
+Pruebas automáticas - Unit testing: Esperar argumentos específicos
 
-Esperar argumentos específicos
+
 10:11
 Índice de cobertura
