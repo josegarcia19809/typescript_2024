@@ -1,11 +1,5 @@
-Pruebas automáticas - Unit testing: Evaluar "snapshots"
+Pruebas automáticas - Unit testing: Pruebas en el componente ItemCounter
 
-
-09:48
-
-08:41
-Pruebas en el componente ItemCounter
-08:05
 Disparar eventos
 10:06
 Comprobar estilos
