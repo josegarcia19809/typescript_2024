@@ -1,4 +1,4 @@
-Pruebas automáticas - Unit testing: Mis primeras pruebas automáticas
+Pruebas automáticas - Unit testing: Agrupar pruebas similares
 
 
 
@@ -6,7 +6,7 @@ Pruebas automáticas - Unit testing: Mis primeras pruebas automáticas
 06:04
 
 11:47
-Agrupar pruebas similares
+
 07:37
 Pruebas sobre componentes de React
 10:58
