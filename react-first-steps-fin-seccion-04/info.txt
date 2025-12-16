@@ -1,16 +1,6 @@
-Pruebas automáticas - Unit testing: Pruebas sobre componentes de React
+Pruebas automáticas - Unit testing: Buscar elementos en el componente renderizado
 
 
-
-
-06:04
-
-11:47
-
-07:37
-
-10:58
-Buscar elementos en el componente renderizado
 09:48
 Evaluar "snapshots"
 08:41
