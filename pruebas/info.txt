@@ -10,6 +10,8 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
+TS: Type Narrowing w/ Union Types
+
 
 A Few Miscellaneous JS Features: Rest Parameters
 
