@@ -10,7 +10,7 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Union Types and Arrays
+TS: Literal types
 
 
 
