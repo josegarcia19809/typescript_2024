@@ -10,14 +10,14 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Extending Interfaces
+TS: Interface Multiple Inheritance
 
 
 
 02:37
 
 03:22
-Interface Multiple Inheritance
+
 03:22
 Interfaces Vs. Type Aliases
 
