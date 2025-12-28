@@ -10,17 +10,93 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Interface Multiple Inheritance
+TS: Preparando clases
 
 
-
-02:37
-
-03:22
-
-03:22
-Interfaces Vs. Type Aliases
-
+Classes Setup
+04:19
+The Class Keyword
+04:18
+Constructors
+03:10
+Class Fields
+03:57
+Private Fields
+06:19
+Getters
+02:57
+Setters
+05:43
+Static Properties & Methods
+04:00
+Extending Classes
+03:09
+The Dreaded Super()
+04:44
+Annotating Classes In TypeScript
+04:04
+Class Fields In TypeScript
+02:00
+readonly Class Properties
+01:19
+The public Modifier
+02:09
+The private Modifier
+05:41
+Parameter Properties Shorthand
+03:10
+Getters and Setters
+04:46
+The Protected Modifier
+02:59
+Classes and Interfaces
+05:08
+Creating Abstract Classes
+08:48
+Introducing Generics
+05:38
+Another Example Of A Built-In Generic
+08:01
+Writing Our First Generic
+07:12
+Writing Another Generic Function
+05:17
+Inferred Generic Type Parameters
+03:14
+Generics, Arrow Functions, & TSX Files
+02:17
+Generics With Multiple Types
+05:35
+Adding Type Constraints
+04:43
+Default Type Parameters
+02:51
+Writing Generic Classes
+03:27
+Typeof Guards
+05:24
+Truthiness Guards
+05:31
+Equality Narrowing
+03:34
+Narrowing With The In Operator
+06:19
+Instanceof Narrowing
+05:53
+Working With Type Predicates
+06:35
+Discriminated Unions
+10:43
+Exhaustiveness Checks With Never
+04:31
+Introducing Type Declarations
+04:30
+Using 3rd Party Libraries: Axios
+05:49
+Working With Axios Types
+11:54
+Installing Types Separately
+08:10
 
 
 A Few Miscellaneous JS Features: Rest Parameters
