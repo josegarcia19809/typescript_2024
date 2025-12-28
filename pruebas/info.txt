@@ -10,12 +10,12 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Reopening Interfaces
+TS: Extending Interfaces
 
 
 
 02:37
-Extending Interfaces
+
 03:22
 Interface Multiple Inheritance
 03:22
