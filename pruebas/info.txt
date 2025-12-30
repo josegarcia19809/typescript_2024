@@ -10,7 +10,7 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Interface
+TS: Múltiples Interfaces
 
 
 Classes Setup
