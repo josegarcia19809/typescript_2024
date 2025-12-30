@@ -10,7 +10,33 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: genéricos
+TS: Writing Generic Classes
+
+Typeof Guards
+05:24
+Truthiness Guards
+05:31
+Equality Narrowing
+03:34
+Narrowing With The In Operator
+06:19
+Instanceof Narrowing
+05:53
+Working With Type Predicates
+06:35
+Discriminated Unions
+10:43
+Exhaustiveness Checks With Never
+04:31
+
+Introducing Type Declarations
+04:30
+Using 3rd Party Libraries: Axios
+05:49
+Working With Axios Types
+11:54
+Installing Types Separately
+08:10
 
 
 Classes Setup
