@@ -10,9 +10,9 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Writing Generic Classes
+TS: Typeof Guards
 
-Typeof Guards
+
 05:24
 Truthiness Guards
 05:31
