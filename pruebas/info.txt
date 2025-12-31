@@ -10,11 +10,11 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Instanceof Narrowing
+TS: Working With Type Predicates
 
 
 05:53
-Working With Type Predicates
+
 06:35
 Discriminated Unions
 10:43
