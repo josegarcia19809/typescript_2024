@@ -10,7 +10,7 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Equality Narrowing
+TS: Narrowing With The In Operator
 
 
 05:24
@@ -18,7 +18,7 @@ TS: Equality Narrowing
 05:31
 
 03:34
-Narrowing With The In Operator
+
 06:19
 Instanceof Narrowing
 05:53
