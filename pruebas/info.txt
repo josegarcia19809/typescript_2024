@@ -10,17 +10,9 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Narrowing With The In Operator
+TS: Instanceof Narrowing
 
 
-05:24
-
-05:31
-
-03:34
-
-06:19
-Instanceof Narrowing
 05:53
 Working With Type Predicates
 06:35
