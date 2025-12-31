@@ -10,13 +10,13 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Working With Type Predicates
+TS: Discriminated Unions
 
 
 05:53
 
 06:35
-Discriminated Unions
+
 10:43
 Exhaustiveness Checks With Never
 04:31
