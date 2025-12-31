@@ -10,13 +10,13 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Truthiness Guards
+TS: Equality Narrowing
 
 
 05:24
 
 05:31
-Equality Narrowing
+
 03:34
 Narrowing With The In Operator
 06:19
