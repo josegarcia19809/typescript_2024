@@ -10,11 +10,11 @@ Colt Steele
 The Modern Javascript Bootcamp Course
 Stephen Grider, Colt Steele
 
-TS: Typeof Guards
+TS: Truthiness Guards
 
 
 05:24
-Truthiness Guards
+
 05:31
 Equality Narrowing
 03:34
