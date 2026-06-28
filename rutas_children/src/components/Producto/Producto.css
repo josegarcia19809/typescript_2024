@@ -1,0 +1,47 @@
+.producto {
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.producto-nombre {
+    margin-top: 0;
+    text-align: center;
+    color: #1565c0;
+}
+
+.producto-precio {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.estado {
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.disponible {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.agotado {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.producto-contenido {
+    margin-top: 15px;
+}

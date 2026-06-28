@@ -1,0 +1,47 @@
+.pelicula {
+    width: 340px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pelicula:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.pelicula-titulo {
+    margin-top: 0;
+    text-align: center;
+    color: #6a1b9a;
+}
+
+.pelicula-duracion {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.estado {
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.estreno {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.clasico {
+    background-color: #e2e3e5;
+    color: #383d41;
+}
+
+.pelicula-contenido {
+    margin-top: 15px;
+}

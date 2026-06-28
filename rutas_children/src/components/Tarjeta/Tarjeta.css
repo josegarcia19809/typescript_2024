@@ -1,0 +1,47 @@
+.tarjeta {
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta-titulo {
+    margin-top: 0;
+    color: #1f4e79;
+    text-align: center;
+}
+
+.tarjeta-cantidad {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.estado {
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.activo {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.inactivo {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.tarjeta-contenido {
+    margin-top: 15px;
+}
